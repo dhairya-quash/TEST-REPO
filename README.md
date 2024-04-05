@@ -96,4 +96,4 @@ Add your Slack account credentials including
 ## Run Locally
 Run the `QuashApplication` File
 
-![Logo]([https://github.com/dhairya-quash/TEST-REPO/assets/161799860/e43bd7cf-3922-4df4-a20b-13d0aeb86185](http://localhost:8080/swagger-ui/index.html#/integration-controller/exportSlackIssues))
+![https://github.com/dhairya-quash/TEST-REPO/assets/161799860/e43bd7cf-3922-4df4-a20b-13d0aeb86185](http://localhost:8080/swagger-ui/index.html#/integration-controller/exportSlackIssues))
