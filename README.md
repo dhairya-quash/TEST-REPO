@@ -24,9 +24,9 @@ Navigate to the resources directory and open the `application.properties` file. 
 Fill in the values of your MongoDB connection string for your database.
 
 JWT configurations -
-- [ ]  JWT Secret
-- [ ]  JWT Expiration
-- [ ]  Token Signing key
+- JWT Secret
+- JWT Expiration
+- Token Signing key
 
 If you have setup the frontend, add a Frontend URL
 
@@ -35,9 +35,9 @@ For **Google Oauth** add your Oauth2 Client Id and Client Secret.
 
 ### Mail Service
 Setup a mail service and get required credentials including :
-- [ ]  Host, Username and Password 
-- [ ]  Port and Protocol
-- [ ]  Mail address from which mails will be sent from
+- Host, Username and Password 
+- Port and Protocol
+- Mail address from which mails will be sent from
 
 ### Jira integrations
 Add your Jira account credentials including 
