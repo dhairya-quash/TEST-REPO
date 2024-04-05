@@ -1,21 +1,39 @@
 
-# Sherlock Backend Setup
+# Sherlock Backend
+
+# Architecture Layers of the project
+- Controller
+- Service
+- Repository
+- Model
+- DTO
+- Utility
 
 This guide will provide you steps to setup and configure the Backend for Sherlock.
+
 ## Installation
 
-
-The backend is in spring boot, so install Spring Boot on your machine. You can refer this official [Spring Boot Guide](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.installing) for installation.
-
-We have used MongoDB as our Database, you can install it by referring this official [MongoDB Installation Guide](https://www.mongodb.com/docs/manual/installation/).
-
-Also this project uses Maven as it's build tool so make sure you have maven installed and configured correctly.
+Sherlock is built using the following technologies:
+- [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.installing)
+- [MongoDB](https://www.mongodb.com/docs/manual/installation/)
+- Maven
+- JWT Authentication
 
 ### Cloning the repo
+```bash
+# Move to your workspace
+cd your-workspace
+
+# Clone this project in your workspace
+git clone https://github.com/Oscorp-HQ/QuashBackend.git
+
+# Move to the project root directory
+cd QuashBackend
+```
 Clone this repository and go to the directory it is saved into.
 
 ### Pom.xml
-Open the `pom.xml` file and reload maven from the side panel so that maven installs all the dependencies to your repository.
+Open the `pom.xml` file and reload maven from the side panel so that maven installs all the dependencies into your project.
 
 ### Application.properties
 Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.
@@ -31,7 +49,7 @@ JWT configurations -
 If you have setup the frontend, add a Frontend URL
 
 ### Google OAuth
-For **Google Oauth** add your Oauth2 Client Id and Client Secret.
+For **Google Oauth** add your Oauth2 **Client Id** and **Client Secret**.
 
 ### Mail Service
 Setup a mail service and get required credentials including :
