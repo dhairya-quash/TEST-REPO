@@ -30,13 +30,12 @@ git clone https://github.com/Oscorp-HQ/QuashBackend.git
 # Move to the project root directory
 cd QuashBackend
 ```
-Clone this repository and go to the directory it is saved into.
 
 ### Pom.xml
-Open the `pom.xml` file and reload maven from the side panel so that maven installs all the dependencies into your project.
+Open the `pom.xml` file and reload maven from the side panel so that maven installs all the dependencies into your project.</br>
 
 ### Application.properties
-Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.
+Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.</br>
 
 ### Adding required credentials and strings
 Fill in the values of your MongoDB connection string for your database.
