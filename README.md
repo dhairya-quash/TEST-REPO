@@ -40,24 +40,41 @@ Setup a mail service and get required credentials including :
 - [ ]  Mail address from which mails will be sent from
 
 ### Jira integrations
-Add your Jira account credentials including Client Id and Client secret.
+Add your Jira account credentials including 
+- Client Id
+- Client secret.
 
 
 ### Google Sheets integration
-Add your Google Service Account credentials including Cleint Id, Client Email, Private Key Id, and Private Key. 
+Add your Google Service Account credentials including 
+- Cleint Id
+- Client Email
+- Private Key Id
+- Private Key. 
 
 ### Slack integration
-Add your Slack account credentials including Client Id, Client Secret, and Access Token.
+Add your Slack account credentials including 
+- Client Id
+- Client Secret
+- Access Token.
 
 ### Linear integration
-Add your Linear account credentials including Client Id, Client Secret, and Access Token.
+Add your Linear account credentials including 
+- Client Id
+- Client Secret
+- Access Token.
 
 ### Github Integration
-Add your Github account credentials including Client Id and Client Secret.
+Add your Github account credentials including 
+- Client Id
+- Client Secret.
 
 ### Clickup Integration
-Add your Slack account credentials including Client Id and Client Secret.
+Add your Slack account credentials including 
+- Client Id
+- Client Secret.
 
 **Set a Jasypt Password Encryption Key**
+
 ## Run Locally
 Run the `QuashApplication` File
