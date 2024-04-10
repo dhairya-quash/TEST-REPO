@@ -1,5 +1,5 @@
 
-# <p align="center"> Sherlock </p>
+# <p align="center"> Sherlock - DevTool for Automated Bug Reporting & Resolution </p>
 # <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/58b129ab-5c12-48af-8b91-66c0999cae28" alt="Logo" width="100"> </div>
 # <p align="center"> On a mission to make Mobile Testing smooth and simple </p>
 
