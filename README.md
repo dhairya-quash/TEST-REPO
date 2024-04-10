@@ -11,7 +11,7 @@
 - DTO
 - Utility
 
-<div align="center">![image](https://github.com/dhairya-quash/TEST-REPO/assets/161799860/a54267a7-3c17-4a36-ade4-306a916cb0e4)</div>
+<div align="center"><img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/a54267a7-3c17-4a36-ade4-306a916cb0e4" alt="Architecture Image"></div>
 
 
 This guide will provide you steps to setup and configure the Backend for Sherlock.
