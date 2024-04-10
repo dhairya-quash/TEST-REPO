@@ -5,9 +5,9 @@
 
 ### <p align="center"><strong>We’re on a mission to make it smooth and simple</strong></p>
 
-> **Reporting** | **Resolution** | **Collaboration**
-> :--------:    | :---------:    | :------------:    
-> Raise comprehensive tickets with minimal effort | Know exactly where the bug is - and how to fix it | Manage all your testing workflows in a single place
+| **Reporting** | **Resolution** | **Collaboration** |
+| :--------:    | :---------:    | :------------:    |
+| Raise comprehensive tickets with minimal effort | Know exactly where the bug is - and how to fix it | Manage all your testing workflows in a single place |
 ---
 
 # Architecture Layers of the project
