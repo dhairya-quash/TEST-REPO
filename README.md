@@ -5,16 +5,16 @@
 
 ### <p align="center"><strong>We’re on a mission to make it smooth and simple</strong></p>
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="width: 30%; border-right: 1px solid black;">
+<div style="display: flex;">
+    <div style="felx: 1; border-right: 1px solid black;">
         <p>Reporting</p>
         <p>Raise comprehensive tickets with minimal effort</p>
     </div>
-    <div style="width: 30%; border-right: 1px solid black;">
+    <div style="flex: 1; border-right: 1px solid black;">
         <p>Resolution</p>
         <p>Know exactly where the bug is - and how to fix it</p>
     </div>
-    <div style="width: 30%;">
+    <div style="flex: 1;">
         <p>Collaboration</p>
         <p>Manage all your testing workflows in a single place</p>
     </div>
