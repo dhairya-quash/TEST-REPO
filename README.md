@@ -36,10 +36,10 @@ git clone https://github.com/Oscorp-HQ/QuashBackend.git
 cd QuashBackend
 ```
 
-### <mark>Pom.xml</mark>
+<mark>Pom.xml</mark>
 Open the `pom.xml` file and reload maven from the side panel so that maven installs all the dependencies into your project.</br>
 
-### <mark>Application.properties</mark>
+<mark>Application.properties</mark>
 Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.</br>
 
 ### Adding required credentials and strings
