@@ -46,9 +46,11 @@ cd QuashBackend
 Fill in the values of your MongoDB connection string for your database.
 
 JWT configurations -
-- JWT Secret
-- JWT Expiration
-- Token Signing key
+```bash
+jwt.secret= Your Secret
+jwt.expirationMs= Expiration time
+token.signing.key= Your JWT Singing key
+```
 
 If you have setup the frontend, add a Frontend URL
 
