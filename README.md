@@ -8,6 +8,23 @@
 | Reporting | Resolution | Collaboration |
 | :-------: | :--------: | :------------:|
 | Raise comprehensive tickets with minimal effort | Know exactly where the bug is - and how to fix it | Manage all your testing workflows in a single place |
+---
+<div style="display: flex; justify-content: space-between;">
+    <div style="width: 30%; border-right: 1px solid black;">
+        <p>Reporting</p>
+        <p>Raise comprehensive tickets with minimal effort</p>
+    </div>
+    <div style="width: 30%; border-right: 1px solid black;">
+        <p>Resolution</p>
+        <p>Know exactly where the bug is - and how to fix it</p>
+    </div>
+    <div style="width: 30%;">
+        <p>Collaboration</p>
+        <p>Manage all your testing workflows in a single place</p>
+    </div>
+</div>
+
+
 
 ---
 
