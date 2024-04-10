@@ -47,9 +47,9 @@ Fill in the values of your MongoDB connection string for your database.
 
 JWT configurations -
 ```bash
-jwt.secret= Your Secret
-jwt.expirationMs= Expiration time
-token.signing.key= Your JWT Singing key
+jwt.secret= Your-Secret
+jwt.expirationMs= Expiration-time
+token.signing.key= Your-JWT-Singing key
 ```
 
 If you have setup the frontend, add a Frontend URL
