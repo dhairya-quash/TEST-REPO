@@ -85,7 +85,7 @@ Below are some integrations where you can export your tickets to. Configure the 
 
 <h2 id="jira-integration"> Jira integration </h2>
 Add your Jira account credentials including 
-```bash
+```
 spring.atlassian.jira.client_id= Your_Jira_Client_Id
 spring.atlassian.jira.client_secret= Your_Jira_Client_Secret
 spring.atlassian.jira.auth_endpoint=https://auth.atlassian.com/oauth/token
@@ -128,7 +128,7 @@ spring.github.client_secret= Your_Github_Secret
 
 <h2 id="clickup-integration"> Clickup integration </h2>
 Add your Slack account credentials including 
-```bash
+```
 spring.clickup.client_id= Your_Clickup_Id
 spring.clickup.client_secret= Your_Clickup_Secret
 ```
