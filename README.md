@@ -98,8 +98,9 @@ spring.google.service_account.client_id= Google_Service_Account_Client_Id
 
 
 <h2 id="slack-integration"> Slack integration </h2>
+
 Add your Slack account credentials including 
-```bash
+```
 spring.slack.clientId= Your_Slack_Id
 spring.slack.clientSecret= Your_Slack_Secret
 spring.slack.quash.accesstoken= Your_Slack_Access_Token
