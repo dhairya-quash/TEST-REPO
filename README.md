@@ -5,11 +5,6 @@
 
 ### <p align="center"><strong>We’re on a mission to make it smooth and simple</strong></p>
 
-| Reporting | Resolution | Collaboration |
-| :-------: | :--------: | :------------:|
-| Raise comprehensive tickets with minimal effort | Know exactly where the bug is - and how to fix it | Manage all your testing workflows in a single place |
----
-
 <div style="display: flex; justify-content: space-between;">
     <div style="width: 30%; border-right: 1px solid black;">
         <p>Reporting</p>
@@ -24,9 +19,6 @@
         <p>Manage all your testing workflows in a single place</p>
     </div>
 </div>
-
-
-
 ---
 
 # Architecture Layers of the project
