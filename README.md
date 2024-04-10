@@ -47,58 +47,87 @@ Fill in the values of your MongoDB connection string for your database.
 
 JWT configurations -
 ```bash
-jwt.secret= Your-Secret
-jwt.expirationMs= Expiration-time
-token.signing.key= Your-JWT-Singing key
+jwt.secret= Your_Secret
+jwt.expirationMs= Expiration_time
+token.signing.key= Your_JWT_Singing_key
 ```
 
 If you have setup the frontend, add a Frontend URL
 
 ### Google OAuth
-For **Google Oauth** add your Oauth2 **Client Id** and **Client Secret**.
+```bash
+spring.security.oauth2.client.registration.google.client-id= Google_Client_Id
+spring.security.oauth2.client.registration.google.client-secret= Google_Client_Secret
+```
+
 
 ### Mail Service
 Setup a mail service and get required credentials including :
-- Host, Username and Password 
-- Port and Protocol
-- Mail address from which mails will be sent from
+```bash
+spring.mail.host= Email_host
+spring.mail.username= Email_Username
+spring.mail.password= Email_password
+spring.mail.properties.mail.transport.protocol=smtp
+spring.mail.properties.mail.smtp.port= Mail_port
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+from.email.address= 123@gmail.com
+```
 
 ### Jira integrations
 Add your Jira account credentials including 
-- Client Id
-- Client secret.
-
+```bash
+spring.atlassian.jira.client_id= Your_Jira_Client_Id
+spring.atlassian.jira.client_secret= Your_Jira_Client_Secret
+spring.atlassian.jira.auth_endpoint=https://auth.atlassian.com/oauth/token
+spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oauth/token/accessible-resources
+```
 
 ### Google Sheets integration
 Add your Google Service Account credentials including 
-- Cleint Id
-- Client Email
-- Private Key Id
-- Private Key. 
+```bash
+spring.google.service_account.private_key_id= Google_Service_Account_Private_Key_Id
+spring.google.service_account.private_key= Google_Service_Account_Private_Key
+spring.google.service_account.client_email="Google_Service_Account_Email
+spring.google.service_account.client_id= Google_Service_Account_Client_Id
+```
+
 
 ### Slack integration
 Add your Slack account credentials including 
-- Client Id
-- Client Secret
-- Access Token.
+```bash
+spring.slack.clientId= Your_Slack_Id
+spring.slack.clientSecret= Your_Slack_Secret
+spring.slack.quash.accesstoken= Your_Slack_Access_Token
+```
+
 
 ### Linear integration
 Add your Linear account credentials including 
-- Client Id
-- Client Secret
-- Access Token.
+```bash
+spring.linear.client_id= Your_Linear_Id
+spring.linear.client_secret= Your_Linear_Secret
+```
 
 ### Github Integration
 Add your Github account credentials including 
-- Client Id
-- Client Secret.
+```bash
+spring.github.client_id= Your_Github_Id
+spring.github.client_secret= Your_Github_Secret
+```
 
 ### Clickup Integration
 Add your Slack account credentials including 
-- Client Id
-- Client Secret.
+```bash
+spring.clickup.client_id= Your_Clickup_Id
+spring.clickup.client_secret= Your_Clickup_Secret
+```
 
 **Set a Jasypt Password Encryption Key**
+```bash
+jasypt.encryption.password= Set a password
+```
 
 ## Run Locally
 Run the `QuashApplication` File
