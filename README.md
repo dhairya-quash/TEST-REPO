@@ -75,6 +75,9 @@ spring.mail.properties.mail.smtp.starttls.required=true
 from.email.address= 123@gmail.com
 ```
 
+Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned below.
+- [Slack](#slack-integration)
+
 ### Jira integrations
 Add your Jira account credentials including 
 ```bash
@@ -94,7 +97,7 @@ spring.google.service_account.client_id= Google_Service_Account_Client_Id
 ```
 
 
-### Slack integration
+<h2 id="slack-integration"> Slack integration </h2>
 Add your Slack account credentials including 
 ```bash
 spring.slack.clientId= Your_Slack_Id
