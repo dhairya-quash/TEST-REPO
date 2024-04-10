@@ -86,7 +86,7 @@ spring.mail.properties.mail.smtp.starttls.required=true
 from.email.address= 123@gmail.com
 ```
 
-Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned below.
+Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned below (Optional).
 - [Jira](#jira-integration)
 - [Google Sheets](#google-sheets-integration)
 - [Slack](#slack-integration)
