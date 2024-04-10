@@ -1,4 +1,3 @@
-
 # <p align="center"> Sherlock - DevTool for Automated Bug Reporting & Resolution </p>
 # <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/58b129ab-5c12-48af-8b91-66c0999cae28" alt="Logo" width="100"> </div>
 <p align="center"> On a mission to make Mobile Testing smooth and simple </p>
@@ -40,10 +39,14 @@ cd QuashBackend
 > Open the `pom.xml` file and reload maven from the side panel so that maven installs all the dependencies into your project.</br>
 
 ## Application.properties
-> Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret    keys for different integrations and services.</br>
+> Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.</br>
 
-### Adding required credentials and strings
-Fill in the values of your MongoDB connection string for your database.
+## Adding required credentials and strings in the `application.properties` file
+
+Add your **MongoDB** connection string for your database 
+```
+spring.data.mongodb.uri= Your_MongoDB_Connection_String
+```
 
 JWT configurations -
 ```bash
