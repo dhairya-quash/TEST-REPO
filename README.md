@@ -70,14 +70,14 @@ jasypt.encryption.password= Set a password
 
 If you have setup the frontend, add a Frontend URL
 
-### Google OAuth
+**Google OAuth**
 ```bash
 spring.security.oauth2.client.registration.google.client-id= Google_Client_Id
 spring.security.oauth2.client.registration.google.client-secret= Google_Client_Secret
 ```
 
 
-### Mail Service
+**Mail Service**
 Setup a mail service and get required credentials :
 ```bash
 spring.mail.host= Email_host
