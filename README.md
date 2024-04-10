@@ -1,7 +1,8 @@
 # <p align="center"> Sherlock - DevTool for Automated Bug Reporting & Resolution </p>
 # <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/58b129ab-5c12-48af-8b91-66c0999cae28" alt="Logo" width="100"> </div>
-<p align="center"><strong>Mobile Testing should not be slow and tangled.</strong></p>
-<p align="center">We’re on a mission to make it smooth and simple</p>
+<p align="center"><span style="font-size: 24px;"><strong>Mobile Testing should not be slow and tangled.</strong></span></p>
+
+<p align="center"><span style="font-size: 20px;">We’re on a mission to make it smooth and simple</span></p>
 
 # Architecture Layers of the project
 - Controller
