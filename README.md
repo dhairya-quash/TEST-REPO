@@ -36,7 +36,7 @@ git clone https://github.com/Oscorp-HQ/QuashBackend.git
 cd QuashBackend
 ```
 
-<mark>Pom.xml</mark>
+==Pom.xml==
 Open the `pom.xml` file and reload maven from the side panel so that maven installs all the dependencies into your project.</br>
 
 <mark>Application.properties</mark>
