@@ -63,6 +63,11 @@ jwt.expirationMs= Expiration_time
 token.signing.key= Your_JWT_Singing_key
 ```
 
+**Set a Jasypt Password Encryption Key**
+```bash
+jasypt.encryption.password= Set a password
+```
+
 If you have setup the frontend, add a Frontend URL
 
 ### Google OAuth
@@ -73,7 +78,7 @@ spring.security.oauth2.client.registration.google.client-secret= Google_Client_S
 
 
 ### Mail Service
-Setup a mail service and get required credentials including :
+Setup a mail service and get required credentials :
 ```bash
 spring.mail.host= Email_host
 spring.mail.username= Email_Username
@@ -97,7 +102,7 @@ Below are some integrations where you can export your tickets to. Configure the 
 
 <h2 id="jira-integration"> Jira integration </h2>
 
-Add your Jira account credentials including 
+Add your Jira account credentials
 ```
 spring.atlassian.jira.client_id= Your_Jira_Client_Id
 spring.atlassian.jira.client_secret= Your_Jira_Client_Secret
@@ -107,7 +112,7 @@ spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oau
 
 <h2 id="google-sheets-integration"> Google Sheets integration </h2>
 
-Add your Google Service Account credentials including 
+Add your Google Service Account credentials
 ```
 spring.google.service_account.private_key_id= Google_Service_Account_Private_Key_Id
 spring.google.service_account.private_key= Google_Service_Account_Private_Key
@@ -118,7 +123,7 @@ spring.google.service_account.client_id= Google_Service_Account_Client_Id
 
 <h2 id="slack-integration"> Slack integration </h2>
 
-Add your Slack account credentials including 
+Add your Slack account credentials
 ```
 spring.slack.clientId= Your_Slack_Id
 spring.slack.clientSecret= Your_Slack_Secret
@@ -128,7 +133,7 @@ spring.slack.quash.accesstoken= Your_Slack_Access_Token
 
 <h2 id="linear-integration"> Linear integration </h2>
 
-Add your Linear account credentials including 
+Add your Linear account credentials
 ```
 spring.linear.client_id= Your_Linear_Id
 spring.linear.client_secret= Your_Linear_Secret
@@ -136,7 +141,7 @@ spring.linear.client_secret= Your_Linear_Secret
 
 <h2 id="github-integration"> Github </h2>
 
-Add your Github account credentials including 
+Add your Github account credentials
 ```
 spring.github.client_id= Your_Github_Id
 spring.github.client_secret= Your_Github_Secret
@@ -144,15 +149,10 @@ spring.github.client_secret= Your_Github_Secret
 
 <h2 id="clickup-integration"> Clickup integration </h2>
 
-Add your Slack account credentials including 
+Add your Slack account credentials
 ```
 spring.clickup.client_id= Your_Clickup_Id
 spring.clickup.client_secret= Your_Clickup_Secret
-```
-
-**Set a Jasypt Password Encryption Key**
-```bash
-jasypt.encryption.password= Set a password
 ```
 
 ## Run Locally
