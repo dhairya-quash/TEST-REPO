@@ -1,6 +1,7 @@
 
 # <p align="center"> Sherlock </p>
-# <p align="center"> <img scr=https://github.com/dhairya-quash/TEST-REPO/assets/161799860/e3b6751c-dc07-442c-9708-eee2ba7ca788 alt="Quash Logo" width="200"> </p>
+# <p align="center"> ![Quash Logo](https://github.com/dhairya-quash/TEST-REPO/assets/161799860/58b129ab-5c12-48af-8b91-66c0999cae28){width=200px}
+ </p>
 # <p align="center"> On a mission to make Mobile Testing smooth and simple </p>
 
 # Architecture Layers of the project
