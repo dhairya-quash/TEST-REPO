@@ -42,7 +42,7 @@ cd QuashBackend
 > Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.<br>
 
 
-
+<br>
 ### Adding required credentials and strings in the `application.properties` file
 
 Add your **MongoDB** connection string for your database 
