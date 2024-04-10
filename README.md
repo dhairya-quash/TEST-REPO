@@ -76,9 +76,14 @@ from.email.address= 123@gmail.com
 ```
 
 Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned below.
+- [Jira](#jira-integration)
+- [Google Sheets](#google-sheets-integration)
 - [Slack](#slack-integration)
+- [Linear](#linear-integration)
+- [Github](#github-integration)
+- [Clickup](#clickup-integration)
 
-### Jira integrations
+<h2 id="jira-integration"> Jira integration </h2>
 Add your Jira account credentials including 
 ```bash
 spring.atlassian.jira.client_id= Your_Jira_Client_Id
@@ -87,9 +92,9 @@ spring.atlassian.jira.auth_endpoint=https://auth.atlassian.com/oauth/token
 spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oauth/token/accessible-resources
 ```
 
-### Google Sheets integration
+<h2 id="google-sheets-integration"> Google Sheets integration </h2>
 Add your Google Service Account credentials including 
-```bash
+```
 spring.google.service_account.private_key_id= Google_Service_Account_Private_Key_Id
 spring.google.service_account.private_key= Google_Service_Account_Private_Key
 spring.google.service_account.client_email="Google_Service_Account_Email
@@ -107,21 +112,21 @@ spring.slack.quash.accesstoken= Your_Slack_Access_Token
 ```
 
 
-### Linear integration
+<h2 id="linear-integration"> Linear integration </h2>
 Add your Linear account credentials including 
-```bash
+```
 spring.linear.client_id= Your_Linear_Id
 spring.linear.client_secret= Your_Linear_Secret
 ```
 
-### Github Integration
+<h2 id="github-integration"> Github </h2>
 Add your Github account credentials including 
-```bash
+```
 spring.github.client_id= Your_Github_Id
 spring.github.client_secret= Your_Github_Secret
 ```
 
-### Clickup Integration
+<h2 id="clickup-integration"> Clickup integration </h2>
 Add your Slack account credentials including 
 ```bash
 spring.clickup.client_id= Your_Clickup_Id
