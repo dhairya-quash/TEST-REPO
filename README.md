@@ -53,7 +53,7 @@ cd QuashBackend
 
 Add your **MongoDB** connection string for your database 
 ```
-spring.data.mongodb.uri='Your_MongoDB_Connection_String'
+spring.data.mongodb.uri='mongodb_connection_string'
 ```
 
 JWT configurations -
@@ -75,7 +75,7 @@ spring.frontend.url='your_frontend_url'
 
 **Google OAuth**
 ```bash
-spring.security.oauth2.client.registration.google.client-id='google_client_id
+spring.security.oauth2.client.registration.google.client-id='google_client_id'
 spring.security.oauth2.client.registration.google.client-secret='google_client_secret'
 ```
 
@@ -103,59 +103,59 @@ Below are some integrations where you can export your tickets to. Configure the 
 - [Github](#github-integration)
 - [Clickup](#clickup-integration)
 
-<h3 id="jira-integration"> Jira integration </h2>
+<h3 id="jira-integration"> Jira integration </h3>
 
 Add your Jira account credentials
 ```
-spring.atlassian.jira.client_id= Your_Jira_Client_Id
-spring.atlassian.jira.client_secret= Your_Jira_Client_Secret
+spring.atlassian.jira.client_id='your_jira_client_id'
+spring.atlassian.jira.client_secret='your_jira_client_secret'
 spring.atlassian.jira.auth_endpoint=https://auth.atlassian.com/oauth/token
 spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oauth/token/accessible-resources
 ```
 
-<h3 id="google-sheets-integration"> Google Sheets integration </h2>
+<h3 id="google-sheets-integration"> Google Sheets integration </h3>
 
 Add your Google Service Account credentials
 ```
-spring.google.service_account.private_key_id= Google_Service_Account_Private_Key_Id
-spring.google.service_account.private_key= Google_Service_Account_Private_Key
-spring.google.service_account.client_email="Google_Service_Account_Email
-spring.google.service_account.client_id= Google_Service_Account_Client_Id
+spring.google.service_account.private_key_id='private_key_id
+spring.google.service_account.private_key='private_key'
+spring.google.service_account.client_email='account_email'
+spring.google.service_account.client_id='client_id'
 ```
 
 
-<h3 id="slack-integration"> Slack integration </h2>
+<h3 id="slack-integration"> Slack integration </h3>
 
 Add your Slack account credentials
 ```
-spring.slack.clientId= Your_Slack_Id
-spring.slack.clientSecret= Your_Slack_Secret
-spring.slack.quash.accesstoken= Your_Slack_Access_Token
+spring.slack.clientId='slack_id'
+spring.slack.clientSecret='slack_secret'
+spring.slack.quash.accesstoken='slack_access_token
 ```
 
 
-<h3 id="linear-integration"> Linear integration </h2>
+<h3 id="linear-integration"> Linear integration </h3>
 
 Add your Linear account credentials
 ```
-spring.linear.client_id= Your_Linear_Id
-spring.linear.client_secret= Your_Linear_Secret
+spring.linear.client_id='linear_id'
+spring.linear.client_secret='linear_secret'
 ```
 
-<h3 id="github-integration"> Github </h2>
+<h3 id="github-integration"> Github </h3>
 
 Add your Github account credentials
 ```
-spring.github.client_id= Your_Github_Id
-spring.github.client_secret= Your_Github_Secret
+spring.github.client_id='github_id'
+spring.github.client_secret='github_secret'
 ```
 
-<h3 id="clickup-integration"> Clickup integration </h2>
+<h3 id="clickup-integration"> Clickup integration </h3>
 
 Add your Slack account credentials
 ```
-spring.clickup.client_id= Your_Clickup_Id
-spring.clickup.client_secret= Your_Clickup_Secret
+spring.clickup.client_id='clickup_id'
+spring.clickup.client_secret='clickup_secret'
 ```
 
 ## Run Locally
