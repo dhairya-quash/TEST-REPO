@@ -105,6 +105,7 @@ Below are some integrations where you can export your tickets to. Configure the 
 
 <div><strong id="jira-integration"> Jira integration </strong></div>
 <div>Add your Jira account credentials</div>
+
 ```
 spring.atlassian.jira.client_id='jira_client_id'
 spring.atlassian.jira.client_secret='jira_client_secret'
