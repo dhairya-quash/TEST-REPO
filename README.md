@@ -117,7 +117,7 @@ spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oau
 
 Add your Google Service Account credentials
 ```
-spring.google.service_account.private_key_id='google_private_key_id
+spring.google.service_account.private_key_id='google_private_key_id'
 spring.google.service_account.private_key='private_key'
 spring.google.service_account.client_email='account_email'
 spring.google.service_account.client_id='client_id'
@@ -130,7 +130,7 @@ Add your Slack account credentials
 ```
 spring.slack.clientId='slack_id'
 spring.slack.clientSecret='slack_secret'
-spring.slack.quash.accesstoken='slack_access_token
+spring.slack.quash.accesstoken='slack_access_token'
 ```
 
 
