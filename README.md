@@ -117,7 +117,7 @@ spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oau
 
 Add your Google Service Account credentials
 ```
-spring.google.service_account.private_key_id='Google_private_key_id
+spring.google.service_account.private_key_id='google_private_key_id
 spring.google.service_account.private_key='private_key'
 spring.google.service_account.client_email='account_email'
 spring.google.service_account.client_id='client_id'
