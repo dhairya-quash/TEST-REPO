@@ -128,9 +128,9 @@ spring.google.service_account.client_id='client_id'
 
 Add your Slack account credentials
 ```
-spring.slack.clientId='slack_id'
-spring.slack.clientSecret='slack_secret'
-spring.slack.quash.accesstoken='slack_access_token'
+spring.slack.clientId='slack_client_id'
+spring.slack.clientSecret='slack_client_secret'
+spring.slack.quash.accesstoken='slack_client_access_token'
 ```
 
 
@@ -138,24 +138,24 @@ spring.slack.quash.accesstoken='slack_access_token'
 
 Add your Linear account credentials
 ```
-spring.linear.client_id='linear_id'
-spring.linear.client_secret='linear_secret'
+spring.linear.client_id='linear_client_id'
+spring.linear.client_secret='linear_client_secret'
 ```
 
 <h3 id="github-integration"> Github </h3>
 
 Add your Github account credentials
 ```
-spring.github.client_id='github_id'
-spring.github.client_secret='github_secret'
+spring.github.client_id='github_client_id'
+spring.github.client_secret='github_client_secret'
 ```
 
 <h3 id="clickup-integration"> Clickup integration </h3>
 
 Add your Slack account credentials
 ```
-spring.clickup.client_id='clickup_id'
-spring.clickup.client_secret='clickup_secret'
+spring.clickup.client_id='clickup_client_id'
+spring.clickup.client_secret='clickup_client_secret'
 ```
 
 ## Run Locally
