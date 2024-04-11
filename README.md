@@ -1,6 +1,5 @@
-![image](https://github.com/dhairya-quash/TEST-REPO/assets/161799860/717d5a9c-a9ca-413e-bd58-defad71e127f)# <p align="center"> Sherlock - DevTool for Automated Bug Reporting & Resolution </p>
+<p align="center"> Sherlock - DevTool for Automated Bug Reporting & Resolution </p>
 <!---
-<div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/58b129ab-5c12-48af-8b91-66c0999cae28" alt="Logo" width="100"> </div>
 --->
 <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/b9e4957b-f1b9-46fa-bce9-216bc6005633" alt="Logo" width="300"> </div>
 
