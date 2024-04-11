@@ -53,42 +53,45 @@ cd QuashBackend
 
 Add your **MongoDB** connection string for your database 
 ```
-spring.data.mongodb.uri= Your_MongoDB_Connection_String
+spring.data.mongodb.uri='Your_MongoDB_Connection_String'
 ```
 
 JWT configurations -
 ```bash
-jwt.secret= Your_Secret
-jwt.expirationMs= Expiration_time
-token.signing.key= Your_JWT_Singing_key
+jwt.secret='your_secret'
+jwt.expirationMs='expiration_time'
+token.signing.key='jwt_singing_key'
 ```
 
 **Set a Jasypt Password Encryption Key**
 ```bash
-jasypt.encryption.password= Set a password
+jasypt.encryption.password='encryption_password'
 ```
 
 If you have setup the frontend, add a Frontend URL
+```
+spring.frontend.url='your_frontend_url'
+```
 
 **Google OAuth**
 ```bash
-spring.security.oauth2.client.registration.google.client-id= Google_Client_Id
-spring.security.oauth2.client.registration.google.client-secret= Google_Client_Secret
+spring.security.oauth2.client.registration.google.client-id='google_client_id
+spring.security.oauth2.client.registration.google.client-secret='google_client_secret'
 ```
 
 
 **Mail Service**
-Setup a mail service and get required credentials :
+Setup a mail service and get required credentials
 ```bash
-spring.mail.host= Email_host
-spring.mail.username= Email_Username
-spring.mail.password= Email_password
+spring.mail.host='email_host'
+spring.mail.username='email_username'
+spring.mail.password='email_password'
 spring.mail.properties.mail.transport.protocol=smtp
-spring.mail.properties.mail.smtp.port= Mail_port
+spring.mail.properties.mail.smtp.port='mail_port'
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
-from.email.address= 123@gmail.com
+from.email.address='your_email@example.com'
 ```
 
 ## Optional Integrations
