@@ -95,7 +95,7 @@ from.email.address='your_email@example.com'
 ```
 
 ## Optional Integrations
-Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned below.
+Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned.
 - [Jira](#jira-integration)
 - [Google Sheets](#google-sheets-integration)
 - [Slack](#slack-integration)
