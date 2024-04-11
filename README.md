@@ -107,8 +107,8 @@ Below are some integrations where you can export your tickets to. Configure the 
 
 Add your Jira account credentials
 ```
-spring.atlassian.jira.client_id='your_jira_client_id'
-spring.atlassian.jira.client_secret='your_jira_client_secret'
+spring.atlassian.jira.client_id='jira_client_id'
+spring.atlassian.jira.client_secret='jira_client_secret'
 spring.atlassian.jira.auth_endpoint=https://auth.atlassian.com/oauth/token
 spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oauth/token/accessible-resources
 ```
@@ -117,7 +117,7 @@ spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oau
 
 Add your Google Service Account credentials
 ```
-spring.google.service_account.private_key_id='private_key_id
+spring.google.service_account.private_key_id='Google_private_key_id
 spring.google.service_account.private_key='private_key'
 spring.google.service_account.client_email='account_email'
 spring.google.service_account.client_id='client_id'
