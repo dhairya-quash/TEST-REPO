@@ -107,7 +107,8 @@ Below are some integrations where you can export your tickets to. Configure the 
 - [Github](#github-integration)
 - [Clickup](#clickup-integration)
 
-<h3 id="jira-integration"> Jira integration </h3>
+<div id="jira-integration"><strong> Jira integration </strong></div>
+
 <div>Add your Jira account credentials</div>
 
 ```
