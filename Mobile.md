@@ -18,7 +18,7 @@
 
 ### Step 1
 
-Add the plugin as a dependency to your project - level.build.gradle file
+Add the plugin as a dependency to your project - `level.build.gradle` file
 ```
 allprojects {
     repositories {
@@ -39,7 +39,7 @@ dependencies {
 
 ### Step 3
 
-With this you can initialize Quash inside the onCreate of the Application class of your app
+With this you can initialize Quash inside the `onCreate` of the Application class of your app
 ```
 Quash.initialize(
     this,
@@ -47,13 +47,13 @@ Quash.initialize(
     readNetworkLogs = true
   )
 ```
-**Include a boolean flag "readNetworkLogs" to determine whether network logs should be enabled. Additionally, integrate a NetworkInterceptor(step 4) to facilitate the reading of these logs.**
+**Include a boolean flag `readNetworkLogs` to determine whether network logs should be enabled. Additionally, integrate a NetworkInterceptor(step 4) to facilitate the reading of these logs.**
 
 ### Step 4
 
 Configure OkHttp:<br>
 
-Assuming you already have an instance of OkHttpClient, you can add an quashinterceptor to it. If you don't have an OkHttpClient instance, you need to create one.
+Assuming you already have an instance of OkHttpClient, you can add an QuashInterceptor to it. If you don't have an `OkHttpClient` instance, you need to create one.
 ```
 val client = OkHttpClient.Builder()
   .addInterceptor(Quash.getInstance().networkInterceptor)
