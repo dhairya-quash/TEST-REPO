@@ -49,7 +49,7 @@ Quash.initialize(
 ```
 **Include a boolean flag "readNetworkLogs" to determine whether network logs should be enabled. Additionally, integrate a NetworkInterceptor(step 4) to facilitate the reading of these logs.**
 
-**Step 4 -**
+### Step 4
 
 Configure OkHttp:<br>
 
