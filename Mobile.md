@@ -61,4 +61,6 @@ val client = OkHttpClient.Builder()
 ```
 This example assumes that the Quash.getInstance().networkInterceptor returns an instance of QuashInterceptor
 
-## <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/4ebb4556-ea34-494d-a35b-ed9c72a86e06" alt="apple logo" width="100"> iOS (Coming Soon)
+## <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/7a53e2f2-1bbb-4c3a-b4ba-5039b0d52897" alt="apple logo" width="100"> iOS (Coming Soon)
+
+
