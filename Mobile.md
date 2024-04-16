@@ -14,8 +14,10 @@
 | Raise comprehensive tickets with minimal effort | Know exactly where the bug is - and how to fix it | Manage all your testing workflows in a single place |
 ---
 
-## Android SDK Integrations
+## Android SDK Integration
+
 **Step 1**
+
 Add the plugin as a dependency to your project - level.build.gradle file
 ```
 allprojects {
@@ -23,5 +25,14 @@ allprojects {
       ...
       mavenCentral()
     }
+  }
+  ```
+
+**Step 2**
+
+Add the dependency
+```
+dependencies {
+    implementation("com.quashbugs:sherlock:1.1.2")
   }
   ```
