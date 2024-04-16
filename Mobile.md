@@ -1,4 +1,4 @@
-![apple](https://github.com/dhairya-quash/TEST-REPO/assets/161799860/bccb6437-5cc7-4d16-969f-57d7182e1d74)<p align="center"> Sherlock - DevTool for Automated Bug Reporting & Resolution </p>
+<p align="center"> Sherlock - DevTool for Automated Bug Reporting & Resolution </p>
 <!---
 --->
 <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/b9e4957b-f1b9-46fa-bce9-216bc6005633" alt="Logo" width="300"> </div>
