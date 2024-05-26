@@ -3,7 +3,7 @@
 Welcome to the Quash Web Dashboard, your ultimate in-app bug reporting tool! Built by developers for developers, this web dashboard captures everything you need to start fixing issues right away. It dispalys crash logs, session replays, network logs, device information, and much more, ensuring you have all the details at your fingertips.
 
 <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/7f7b7ffd-66f4-45d7-b68e-01fcedff0a75" alt="Logo" width=1000> </div>
----
+
 
 | **Reporting** 🗒️ | **Resolution** ✅ | **Collaboration** 🤝🏻 |
 | :--------: | :---------: | :---------: |
@@ -136,11 +136,11 @@ spring.google.service_account.client_id='client_id'
 
 <h3 id="slack-integration"> Slack integration </h3>
 
-Add your Slack account credentials
+Add your [Slack](https://api.slack.com/apps) account credentials
 ```java
 spring.slack.clientId='slack_client_id'
 spring.slack.clientSecret='slack_client_secret'
-spring.slack.quash.accesstoken='slack_client_access_token'
+spring.slack.quash.redirectUri='slack_redirect_uri'
 ```
 
 
