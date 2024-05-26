@@ -167,6 +167,7 @@ Add your Slack account credentials
 ```java
 spring.clickup.client_id='clickup_client_id'
 spring.clickup.client_secret='clickup_client_secret'
+spring.slack.redirectUri='slack_redirect_uri'
 ```
 
 ## Run Locally
