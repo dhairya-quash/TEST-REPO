@@ -147,6 +147,8 @@ spring.slack.quash.accesstoken='slack_client_access_token'
 
 Add your Linear account credentials
 ```java
+spring.linear.redirect_uri='linear_redirect_uri'
+spring.linear.auth_endpoint='auth_endpoint'
 spring.linear.client_id='linear_client_id'
 spring.linear.client_secret='linear_client_secret'
 ```
