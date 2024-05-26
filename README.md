@@ -61,29 +61,29 @@ mvn clean install
 
 
 **MongoDB Connection String for Database** 
-```kotlin
+```java
 spring.data.mongodb.uri='mongodb_connection_string'
 ```
 
 JWT configurations -
-```bash
+```java
 jwt.secret='your_secret'
 jwt.expirationMs='expiration_time'
 token.signing.key='jwt_singing_key'
 ```
 
 **Set a Jasypt Password Encryption Key**
-```bash
+```java
 jasypt.encryption.password='encryption_password'
 ```
 
 If you have setup the frontend, add a Frontend URL
-```kotlin
+```java
 spring.frontend.url='your_frontend_url'
 ```
 
 **Google OAuth**
-```bash
+```java
 spring.security.oauth2.client.registration.google.client-id='google_client_id'
 spring.security.oauth2.client.registration.google.client-secret='google_client_secret'
 ```
@@ -91,7 +91,7 @@ spring.security.oauth2.client.registration.google.client-secret='google_client_s
 
 **Mail Service**
 Setup a mail service and get required credentials
-```bash
+```java
 spring.mail.host='email_host'
 spring.mail.username='email_username'
 spring.mail.password='email_password'
@@ -125,7 +125,7 @@ spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oau
 <h3 id="google-sheets-integration"> Google Sheets integration </h3>
 
 Add your Google Service Account credentials
-```
+```java
 spring.google.service_account.private_key_id='google_private_key_id'
 spring.google.service_account.private_key='private_key'
 spring.google.service_account.client_email='account_email'
@@ -136,7 +136,7 @@ spring.google.service_account.client_id='client_id'
 <h3 id="slack-integration"> Slack integration </h3>
 
 Add your Slack account credentials
-```
+```java
 spring.slack.clientId='slack_client_id'
 spring.slack.clientSecret='slack_client_secret'
 spring.slack.quash.accesstoken='slack_client_access_token'
@@ -146,7 +146,7 @@ spring.slack.quash.accesstoken='slack_client_access_token'
 <h3 id="linear-integration"> Linear integration </h3>
 
 Add your Linear account credentials
-```
+```java
 spring.linear.client_id='linear_client_id'
 spring.linear.client_secret='linear_client_secret'
 ```
@@ -154,7 +154,7 @@ spring.linear.client_secret='linear_client_secret'
 <h3 id="github-integration"> Github </h3>
 
 Add your Github account credentials
-```
+```java
 spring.github.client_id='github_client_id'
 spring.github.client_secret='github_client_secret'
 ```
@@ -162,7 +162,7 @@ spring.github.client_secret='github_client_secret'
 <h3 id="clickup-integration"> Clickup integration </h3>
 
 Add your Slack account credentials
-```
+```java
 spring.clickup.client_id='clickup_client_id'
 spring.clickup.client_secret='clickup_client_secret'
 ```
