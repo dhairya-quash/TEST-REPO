@@ -1,4 +1,4 @@
-# Official Backend for Quash
+# Official Backend for [Quash](https://quashbugs.com/)
 
 <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/7f7b7ffd-66f4-45d7-b68e-01fcedff0a75" alt="Logo" width=1000> </div>
 
