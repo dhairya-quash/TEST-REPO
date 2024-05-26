@@ -78,7 +78,7 @@ jasypt.encryption.password='encryption_password'
 ```
 
 If you have setup the frontend, add a Frontend URL
-```
+```kotlin
 spring.frontend.url='your_frontend_url'
 ```
 
