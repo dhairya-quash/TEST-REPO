@@ -40,7 +40,7 @@ Sherlock is built using the following technologies:
 - Maven
 - JWT Authentication
 
-### Cloning the repo
+### Installation
 ```bash
 # Move to your workspace
 cd your-workspace
