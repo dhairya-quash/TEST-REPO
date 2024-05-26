@@ -58,9 +58,7 @@ cd QuashBackend
 ## Application.properties
 > Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.<br>
 
-### Adding required credentials and strings in the `application.properties` file
-
-Add your **MongoDB** connection string for your database 
+**MongoDB Connection String for Database** 
 ```kotlin
 spring.data.mongodb.uri='mongodb_connection_string'
 ```
