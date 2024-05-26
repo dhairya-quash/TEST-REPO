@@ -3,7 +3,7 @@
 Welcome to the Quash Web Dashboard, your ultimate in-app bug reporting tool! Built by developers for developers, this web dashboard captures everything you need to start fixing issues right away. It dispalys crash logs, session replays, network logs, device information, and much more, ensuring you have all the details at your fingertips.
 
 <div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/7f7b7ffd-66f4-45d7-b68e-01fcedff0a75" alt="Logo" width=1000> </div>
-     
+<div>   </div>
 
 | **Reporting** 🗒️ | **Resolution** ✅ | **Collaboration** 🤝🏻 |
 | :--------: | :---------: | :---------: |
