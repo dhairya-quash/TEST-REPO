@@ -33,6 +33,11 @@ The project is structured into the following layers:
 
 <div align="center"><img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/2f2e2354-0158-4cd8-879b-4d32aeb9ac13" alt="Architecture"></div>
 
+## Report Generation Flow
+
+<div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/fa6333b8-59d9-4fcc-9348-07ee8c431009" alt="Flow" width=1000> </div>
+<br>
+
 This guide will provide you steps to setup and configure the Backend for Sherlock.
 
 Sherlock is built using the following technologies:
