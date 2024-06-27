@@ -71,7 +71,7 @@ mvn clean install
 
 **MongoDB Connection String for Database** 
 ```java
-spring.data.mongodb.uri='mongodb_connection_string'
+spring.data.mongodb.uri={mongodb_connection_string}
 ```
 
 JWT configurations -
