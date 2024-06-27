@@ -15,8 +15,6 @@ Welcome to the Quash Web Backend, your ultimate in-app bug reporting tool! Built
 - [Project Architecture](#project-architecture)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [API Flows](#api-flows)
-- [Data Models and DTOs](#data-models-and-dtos)
 - [Optional Integrations](#optional-integrations)
 - [Run Locally](#run-locally)
 
