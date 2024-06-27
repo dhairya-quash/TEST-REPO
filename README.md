@@ -114,8 +114,8 @@ spring.data.mongodb.uri={mongodb_connection_string}
 ```
 
 ## Cloud provider configurations
-**Specify the cloud provider (AWS, GCP, Azure)**
 ```java
+# Specify the cloud provider (AWS, GCP, Azure)
 cloud.provider=aws
 ```
 
