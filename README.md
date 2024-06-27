@@ -68,7 +68,7 @@ mvn clean install
 > Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.<br>
 >
 
-JWT configurations -
+**JWT configurations**
 ```java
 jwt.secret='your_secret'
 jwt.expirationMs='expiration_time'
@@ -80,29 +80,29 @@ token.signing.key='jwt_singing_key'
 jasypt.encryption.password='encryption_password'
 ```
 
-Add your Frontend URL
+**Add your Frontend URL**
 ```java
 spring.frontend.url='your_frontend_url'
 ```
 
-Add your Spring Base URL
+**Add your Spring Base URL**
 ```java
 spring.url='your_spring_url'
 ```
-Set Access and Refresh Token expiry time
+**Set Access and Refresh Token expiry time**
 ```java
 # Access Token expiry - 6 days
 token.accessToken.expiration=518400000
 # Refresh Token expiry - 8 days
 token.refreshToken.expiration=691200000
 ```
-File upload configurations
+**File upload configurations**
 ```java
 spring.servlet.multipart.enabled=true
 spring.servlet.multipart.max-file-size=15MB
 spring.servlet.multipart.max-request-size=15MB
 ```
-Management endpoint configurations
+**Management endpoint configurations**
 ```java
 management.endpoints.web.exposure.include=*
 spring.main.lazy-initialization=true
@@ -115,7 +115,7 @@ spring.data.mongodb.uri={mongodb_connection_string}
 
 ## Cloud provider configurations
 ```java
-# Specify the cloud provider (AWS, GCP, Azure)
+# Specify the cloud provider (aws, gcp, azure)
 cloud.provider=aws
 ```
 
