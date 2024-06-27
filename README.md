@@ -33,9 +33,12 @@ The project is structured into the following layers:
 
 <div align="center"><img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/2f2e2354-0158-4cd8-879b-4d32aeb9ac13" alt="Architecture"></div>
 
-## Report Generation Flow
+## DB Schema
+<div align="center"> <img src="https://github.com/Oscorp-HQ/quash-backend/assets/161799860/9ffd2570-a050-4e39-87a9-4d04800efea5" alt="Flow" width=1000> </div>
+<br>
 
-<div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/fa6333b8-59d9-4fcc-9348-07ee8c431009" alt="Flow" width=1000> </div>
+## Report Generation Flow
+<div align="center"> <img src="https://github.com/Oscorp-HQ/quash-backend/assets/161799860/65d6b494-4867-43ed-970a-676feb6a7272" alt="Flow" width=1000> </div>
 <br>
 
 This guide will provide you steps to setup and configure the Backend for Sherlock.
@@ -83,17 +86,30 @@ token.signing.key='jwt_singing_key'
 jasypt.encryption.password='encryption_password'
 ```
 
-If you have setup the frontend, add a Frontend URL
+Add your Frontend URL
 ```java
 spring.frontend.url='your_frontend_url'
 ```
 
-**Google OAuth**
+Add your Spring Base URL
 ```java
-spring.security.oauth2.client.registration.google.client-id='google_client_id'
-spring.security.oauth2.client.registration.google.client-secret='google_client_secret'
+spring.url='your_spring_url'
 ```
-
+Set Access and Refresh Token expiry time
+```java
+# Access Token expiry - 6 days
+token.accessToken.expiration=518400000
+# Refresh Token expiry - 8 days
+token.refreshToken.expiration=691200000
+```
+Some extra properties
+```java
+spring.servlet.multipart.enabled=true
+spring.servlet.multipart.max-file-size=15MB
+spring.servlet.multipart.max-request-size=15MB
+management.endpoints.web.exposure.include=*
+spring.main.lazy-initialization=true
+```
 
 **Mail Service**
 Setup a mail service and get required credentials
@@ -109,6 +125,13 @@ spring.mail.properties.mail.smtp.starttls.required=true
 from.email.address='your_email@example.com'
 ```
 
+### Optionally you can use Google OAuth for signin and signup.
+**Google OAuth**
+```java
+spring.security.oauth2.client.registration.google.client-id='google_client_id'
+spring.security.oauth2.client.registration.google.client-secret='google_client_secret'
+```
+
 ## Optional Integrations
 Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned.
 - [Jira](#jira-integration)
@@ -116,7 +139,6 @@ Below are some integrations where you can export your tickets to. Configure the 
 - [Slack](#slack-integration)
 - [Linear](#linear-integration)
 - [Github](#github-integration)
-- [Clickup](#clickup-integration)
 
 <h3 id="jira-integration"> Jira integration </h3>
 <div>Add your Jira account credentials</div>
@@ -126,16 +148,6 @@ spring.atlassian.jira.client_id='jira_client_id'
 spring.atlassian.jira.client_secret='jira_client_secret'
 spring.atlassian.jira.auth_endpoint=https://auth.atlassian.com/oauth/token
 spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oauth/token/accessible-resources
-```
-
-<h3 id="google-sheets-integration"> Google Sheets integration </h3>
-
-Add your Google Service Account credentials
-```java
-spring.google.service_account.private_key_id='google_private_key_id'
-spring.google.service_account.private_key='private_key'
-spring.google.service_account.client_email='account_email'
-spring.google.service_account.client_id='client_id'
 ```
 
 
@@ -167,14 +179,8 @@ spring.github.client_id='github_client_id'
 spring.github.client_secret='github_client_secret'
 ```
 
-<h3 id="clickup-integration"> Clickup integration </h3>
-
-Add your Slack account credentials
-```java
-spring.clickup.client_id='clickup_client_id'
-spring.clickup.client_secret='clickup_client_secret'
-spring.slack.redirectUri='slack_redirect_uri'
-```
-
 ## Run Locally
 Run the `QuashApplication` File
+```java
+mvn spring-boot:run
+```
