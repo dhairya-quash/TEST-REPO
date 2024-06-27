@@ -39,9 +39,9 @@ The project is structured into the following layers:
 <div align="center"> <img src="https://github.com/Oscorp-HQ/quash-backend/assets/161799860/65d6b494-4867-43ed-970a-676feb6a7272" alt="Flow" width=1000> </div>
 <br>
 
-This guide will provide you steps to setup and configure the Backend for Sherlock.
+This guide will provide you steps to setup and configure the Backend for Quash Max.
 
-Sherlock is built using the following technologies:
+Quash Max is built using the following technologies:
 - [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.installing)
 - [MongoDB](https://www.mongodb.com/docs/manual/installation/)
 - Maven
