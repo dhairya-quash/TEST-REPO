@@ -113,7 +113,7 @@ spring.main.lazy-initialization=true
 spring.data.mongodb.uri={mongodb_connection_string}
 ```
 
-## Cloud provider configurations
+**Cloud provider configurations**
 ```java
 # Specify the cloud provider (aws, gcp, azure)
 cloud.provider=aws
