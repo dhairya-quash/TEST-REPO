@@ -68,12 +68,6 @@ mvn clean install
 > Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.<br>
 >
 
-
-**MongoDB Connection String for Database** 
-```java
-spring.data.mongodb.uri={mongodb_connection_string}
-```
-
 JWT configurations -
 ```java
 jwt.secret='your_secret'
@@ -102,14 +96,52 @@ token.accessToken.expiration=518400000
 # Refresh Token expiry - 8 days
 token.refreshToken.expiration=691200000
 ```
-Some extra properties
+File upload configurations
 ```java
 spring.servlet.multipart.enabled=true
 spring.servlet.multipart.max-file-size=15MB
 spring.servlet.multipart.max-request-size=15MB
+```
+Management endpoint configurations
+```java
 management.endpoints.web.exposure.include=*
 spring.main.lazy-initialization=true
 ```
+
+**MongoDB Connection String for Database** 
+```java
+spring.data.mongodb.uri={mongodb_connection_string}
+```
+
+## Cloud provider configurations
+**Specify the cloud provider (AWS, GCP, Azure)**
+```java
+cloud.provider=aws
+```
+
+**GCP-specific properties**
+```java
+gcp.bucket.name={GCP_BUCKET_NAME}
+gcp.credentials.project-id={GCP_PROJECT_ID}
+gcp.credentials.client-email={GCP_CLIENT_EMAIL}
+gcp.credentials.private-key={GCP_PRIVATE_KEY}
+```
+
+**AWS-specific properties**
+```java
+aws.access.key.id={YOUR_ACCESS_KEY_ID}
+aws.secret.access.key={YOUR_SECRET_ACCESS_KEY}
+aws.bucket.name={YOUR_BUCKET_NAME}
+aws.region={region}
+```
+
+**Azure-specific properties**
+```java
+azure.account.name={AZURE_ACCOUNT_NAME}
+azure.account.key={AZURE_ACCOUNT_KEY}
+azure.container.name={AZURE_CONTAINER_NAME}
+```
+**
 
 **Mail Service**
 Setup a mail service and get required credentials
