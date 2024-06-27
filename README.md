@@ -34,7 +34,7 @@ The project is structured into the following layers:
 <div align="center"><img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/2f2e2354-0158-4cd8-879b-4d32aeb9ac13" alt="Architecture"></div>
 
 ## DB Schema
-<div align="center"> <img src="https://github.com/Oscorp-HQ/quash-backend/assets/161799860/9ffd2570-a050-4e39-87a9-4d04800efea5" alt="Flow" width=1000> </div>
+<div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/6a21b88f-9ae5-4b72-9270-fe356412dc16" alt="Flow" width=1000> </div>
 <br>
 
 ## Report Generation Flow
@@ -141,7 +141,6 @@ azure.account.name={AZURE_ACCOUNT_NAME}
 azure.account.key={AZURE_ACCOUNT_KEY}
 azure.container.name={AZURE_CONTAINER_NAME}
 ```
-**
 
 **Mail Service**
 Setup a mail service and get required credentials
