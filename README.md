@@ -68,24 +68,24 @@ mvn clean install
 
 **JWT configurations**
 ```java
-jwt.secret='your_secret'
-jwt.expirationMs='expiration_time'
-token.signing.key='jwt_singing_key'
+jwt.secret={JWT_SECRET}
+jwt.expirationMs={JWT_EXPIRATION_MS}
+token.signing.key={TOKEN_SIGNING_KEY}
 ```
 
 **Set a Jasypt Password Encryption Key**
 ```java
-jasypt.encryption.password='encryption_password'
+jasypt.encryption.password={JASYPT_ENCRYPTION_PASSWORD}
 ```
 
 **Add your Frontend URL**
 ```java
-spring.frontend.url='your_frontend_url'
+spring.frontend.url={FRONTEND_URL}
 ```
 
 **Add your Spring Base URL**
 ```java
-spring.url='your_spring_url'
+spring.url={BACKEND_URL}
 ```
 **Set Access and Refresh Token expiry time**
 ```java
@@ -108,13 +108,13 @@ spring.main.lazy-initialization=true
 
 **MongoDB Connection String for Database** 
 ```java
-spring.data.mongodb.uri={mongodb_connection_string}
+spring.data.mongodb.uri={MONGODB_URI}
 ```
 
 **Cloud provider configurations**
 ```java
 # Specify the cloud provider (aws, gcp, azure)
-cloud.provider=aws
+cloud.provider={CLOUD_PROVIDER}
 ```
 
 **GCP-specific properties**
@@ -143,22 +143,22 @@ azure.container.name={AZURE_CONTAINER_NAME}
 **Mail Service**
 Setup a mail service and get required credentials
 ```java
-spring.mail.host='email_host'
-spring.mail.username='email_username'
-spring.mail.password='email_password'
+spring.mail.host={SMTP_HOST}
+spring.mail.username={SMTP_USERNAME}
+spring.mail.password={SMTP_PASSWORD}
 spring.mail.properties.mail.transport.protocol=smtp
-spring.mail.properties.mail.smtp.port='mail_port'
+spring.mail.properties.mail.smtp.port=587
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
-from.email.address='your_email@example.com'
+from.email.address={FROM_EMAIL_ADDRESS}
 ```
 
 ### Optionally you can use Google OAuth for signin and signup.
 **Google OAuth**
 ```java
-spring.security.oauth2.client.registration.google.client-id='google_client_id'
-spring.security.oauth2.client.registration.google.client-secret='google_client_secret'
+spring.security.oauth2.client.registration.google.client-id={YOUR_CLIENT_ID}
+spring.security.oauth2.client.registration.google.client-secret={YOUR_CLIENT_SECRET}
 ```
 
 ## Optional Integrations
@@ -173,10 +173,10 @@ Below are some integrations where you can export your tickets to. Configure the 
 <div>Add your Jira account credentials</div>
 
 ```java
-spring.atlassian.jira.client_id='jira_client_id'
-spring.atlassian.jira.client_secret='jira_client_secret'
-spring.atlassian.jira.auth_endpoint=https://auth.atlassian.com/oauth/token
-spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oauth/token/accessible-resources
+spring.atlassian.jira.client_id={ATLASSIAN_JIRA_CLIENT_ID}
+spring.atlassian.jira.client_secret={ATLASSIAN_JIRA_CLIENT_SECRET}
+spring.atlassian.jira.auth_endpoint={ATLASSIAN_JIRA_AUTH_ENDPOINT}
+spring.atlassian.jira.accessible_resource_endpoint={ATLASSIAN_JIRA_RESOURCE_ENDPOINT}
 ```
 
 
@@ -184,9 +184,9 @@ spring.atlassian.jira.accessible_resource_endpoint=https://api.atlassian.com/oau
 
 Add your [Slack](https://api.slack.com/apps) account credentials
 ```java
-spring.slack.clientId='slack_client_id'
-spring.slack.clientSecret='slack_client_secret'
-spring.slack.quash.redirectUri='slack_redirect_uri'
+spring.slack.heimdall_clientId={SLACK_HEIMDALL_CLIENT_ID}
+spring.slack.heimdall_clientSecret={SLACK_HEIMDALL_CLIENT_SECRET}
+spring.slack.redirectUri={SLACK_REDIRECT_URI}
 ```
 
 
@@ -194,18 +194,19 @@ spring.slack.quash.redirectUri='slack_redirect_uri'
 
 Add your Linear account credentials
 ```java
-spring.linear.redirect_uri='linear_redirect_uri'
-spring.linear.auth_endpoint='auth_endpoint'
-spring.linear.client_id='linear_client_id'
-spring.linear.client_secret='linear_client_secret'
+spring.linear.client_id={LINEAR_CLIENT_ID}
+spring.linear.auth_endpoint={LINEAR_AUTH_ENDPOINT}
+spring.linear.redirect_uri={LINEAR_REDIRECT_URI}
+spring.linear.client_secret={LINEAR_CLIENT_SECRET}
 ```
 
 <h3 id="github-integration"> Github </h3>
 
 Add your Github account credentials
 ```java
-spring.github.client_id='github_client_id'
-spring.github.client_secret='github_client_secret'
+spring.github.client_id={GITHUB_CLIENT_ID}
+spring.github.client_secret={GITHUB_CLIENT_SECRET}
+spring.github.redirect_url={GITHUB_REDIRECT_URL}
 ```
 
 ## Run Locally
