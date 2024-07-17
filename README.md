@@ -164,7 +164,6 @@ spring.security.oauth2.client.registration.google.client-secret={YOUR_CLIENT_SEC
 ## Optional Integrations
 Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned.
 - [Jira](#jira-integration)
-- [Google Sheets](#google-sheets-integration)
 - [Slack](#slack-integration)
 - [Linear](#linear-integration)
 - [Github](#github-integration)
@@ -214,3 +213,5 @@ Run the `QuashApplication` File
 ```java
 mvn spring-boot:run
 ```
+## Swagger Endpoint
+http://<YOUR_IP>:8080/swagger-ui/index.html
