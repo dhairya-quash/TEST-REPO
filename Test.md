@@ -2,25 +2,6 @@
 
 Welcome to Quash! This guide will walk you through the process of setting up Quash using Docker, whether you're working on your local machine or a hosted VM instance. We've designed this guide to be comprehensive and easy to follow. Let's get started!
 
-## Prerequisites
-
-Before we dive into the setup, let's ensure you have everything you need.
-
-### Docker and Docker Compose
-
-Docker allows you to run applications in isolated containers, while Docker Compose helps you manage multi-container applications. Follow these links to install Docker and Docker Compose on your system:
-
-- [Docker Installation Guide](https://docs.docker.com/get-docker/)
-- [Docker Compose Installation Guide](https://docs.docker.com/compose/install/)
-
-### Required Files
-
-Make sure you have the following files downloaded and saved in a folder on your computer:
-- `docker-compose.yml`
-- `setup.sh`
-
-These files contain the instructions and configurations needed to set up Quash.
-
 ## Considerations for Hosted VM Instances
 
 If you plan to run Quash on a virtual machine (VM) hosted in the cloud, here are a few things to consider:
@@ -51,6 +32,26 @@ You can find detailed instructions on how to create and configure VM instances f
 2. **Set up NSGs**: Configure network security groups to permit traffic on ports 8080 and 3000.
 
 3. **Access your VM**: SSH into your Azure VM and follow the setup steps.
+
+## Prerequisites
+
+Before we dive into the setup, let's ensure you have everything you need.
+
+### Docker and Docker Compose
+
+Docker allows you to run applications in isolated containers, while Docker Compose helps you manage multi-container applications. Follow these links to install Docker and Docker Compose on your system:
+
+- [Docker Installation Guide](https://docs.docker.com/get-docker/)
+- [Docker Compose Installation Guide](https://docs.docker.com/compose/install/)
+
+### Required Files
+
+Make sure you have the following files downloaded and saved in a folder on your computer:
+- `docker-compose.yml`
+- `setup.sh`
+
+These files contain the instructions and configurations needed to set up Quash.
+
 
 ## Step-by-Step Guide
 
