@@ -5,19 +5,21 @@ Welcome to Quash! This guide will walk you through the process of setting up Qua
 ## Considerations for Hosted VM Instances
 
 If you plan to run Quash on a virtual machine (VM) hosted in the cloud, here are a few things to consider:
+
 - Choose a VM instance with at least 4GB of memory.
 - Configure your firewall rules to allow traffic on ports 8080 and 3000.
 
 You can find detailed instructions on how to create and configure VM instances for different cloud providers here:
-## Google Cloud Platform (GCP): [Creating a VM instance](https://cloud.google.com/compute/docs/instances/create-start-instance)
+
+### Google Cloud Platform (GCP): [Creating a VM instance](https://cloud.google.com/compute/docs/instances/create-start-instance)
 
 1. **Create a VM instance**: Follow the [GCP guide](https://cloud.google.com/compute/docs/instances/create-start-instance) to create a VM. Choose a machine type with at least 4GB of memory, such as `n1-standard-1`.
 
 2. **Configure firewall rules**: Allow traffic on ports 8080 and 3000 by setting up appropriate firewall rules.
 
-3. **SSH into your VM**: Access your VM through SSH and follow the setup steps provided above.
+3. **SSH into your VM**: Access your VM through SSH and follow the setup steps provided below.
 
-## Amazon Web Services (AWS): [Launching an EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+### Amazon Web Services (AWS): [Launching an EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
 1. **Launch an EC2 instance**: Use the [AWS guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) to launch an EC2 instance. Select an instance type like `t2.medium` which offers 4GB of memory.
 
@@ -25,7 +27,7 @@ You can find detailed instructions on how to create and configure VM instances f
 
 3. **Connect to your EC2 instance**: SSH into your EC2 instance and proceed with the setup steps.
 
-## Microsoft Azure: [Creating a Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
+### Microsoft Azure: [Creating a Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
 
 1. **Create a Virtual Machine**: Refer to the [Azure guide](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal) to create a VM. Opt for a machine size such as `Standard B2ms` with 4GB of memory.
 
@@ -34,7 +36,8 @@ You can find detailed instructions on how to create and configure VM instances f
 3. **Access your VM**: SSH into your Azure VM and follow the setup steps.
 
 ## Running Locally
-You just need the prerequisites and you are good to go 👍🏼
+
+To run Quash locally, you only need to meet the prerequisites and follow the setup steps below.
 
 ## Prerequisites
 
@@ -50,11 +53,11 @@ Docker allows you to run applications in isolated containers, while Docker Compo
 ### Required Files
 
 Make sure you have the following files downloaded and saved in a folder on your computer:
+
 - `docker-compose.yml`
 - `setup.sh`
 
 These files contain the instructions and configurations needed to set up Quash.
-
 
 ## Step-by-Step Guide
 
@@ -65,15 +68,19 @@ Now that you have everything ready, let's proceed with the setup.
 1. **Navigate to your working directory**: Open your terminal (or command prompt) and navigate to the folder where you saved the `docker-compose.yml` and `setup.sh` files.
 
 2. **Make the setup script executable**: In the terminal, type the following command to allow the setup script to run:
+
    ```bash
    chmod +x setup.sh
    ```
 
 3. **Run the setup script**: Start the setup process by running the script with one of the following commands:
+
    ```bash
    ./setup.sh
    ```
+
    or if you need administrative permissions:
+
    ```bash
    sudo bash ./setup.sh
    ```
