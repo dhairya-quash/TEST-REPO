@@ -28,8 +28,7 @@ If you plan to run Quash on a virtual machine (VM) hosted in the cloud, here are
 - Configure your firewall rules to allow traffic on ports 8080 and 3000.
 
 You can find detailed instructions on how to create and configure VM instances for different cloud providers here:
-- **Google Cloud Platform (GCP)**: [Creating a VM instance](https://cloud.google.com/compute/docs/instances/create-start-instance)
-#### Google Cloud Platform (GCP)
+##Google Cloud Platform (GCP): [Creating a VM instance](https://cloud.google.com/compute/docs/instances/create-start-instance)
 
 1. **Create a VM instance**: Follow the [GCP guide](https://cloud.google.com/compute/docs/instances/create-start-instance) to create a VM. Choose a machine type with at least 4GB of memory, such as `n1-standard-1`.
 
@@ -37,8 +36,7 @@ You can find detailed instructions on how to create and configure VM instances f
 
 3. **SSH into your VM**: Access your VM through SSH and follow the setup steps provided above.
 
-**Amazon Web Services (AWS)**: [Launching an EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
-#### Amazon Web Services (AWS)
+##Amazon Web Services (AWS): [Launching an EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
 1. **Launch an EC2 instance**: Use the [AWS guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) to launch an EC2 instance. Select an instance type like `t2.medium` which offers 4GB of memory.
 
@@ -46,8 +44,7 @@ You can find detailed instructions on how to create and configure VM instances f
 
 3. **Connect to your EC2 instance**: SSH into your EC2 instance and proceed with the setup steps.
 
-**Microsoft Azure**: [Creating a Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
-#### Microsoft Azure
+##Microsoft Azure: [Creating a Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
 
 1. **Create a Virtual Machine**: Refer to the [Azure guide](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal) to create a VM. Opt for a machine size such as `Standard B2ms` with 4GB of memory.
 
