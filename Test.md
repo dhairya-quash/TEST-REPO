@@ -33,6 +33,9 @@ You can find detailed instructions on how to create and configure VM instances f
 
 3. **Access your VM**: SSH into your Azure VM and follow the setup steps.
 
+## Running Locally
+You just need the prerequisites and you are good to go 👍🏼
+
 ## Prerequisites
 
 Before we dive into the setup, let's ensure you have everything you need.
