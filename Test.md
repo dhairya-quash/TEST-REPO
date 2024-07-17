@@ -103,7 +103,7 @@ As the setup script runs, it will guide you through several steps:
 Once the script has completed its tasks, you should see two running containers:
 
 - **max-frontend**: You can access this at `http://<YOUR_IP>:3000`
-- **max-backend**: You can access this at `http://<YOUR_IP>:8080`
+- **max-backend**: You can access this at `http://<YOUR_IP>:8080/swagger-ui/index.html`
 
 Replace `<YOUR_IP>` with the actual IP address of your machine or VM instance.
 
