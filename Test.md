@@ -26,7 +26,7 @@ You can find detailed instructions on how to create and configure VM instances f
 
 2. **Configure security groups**: Ensure your security groups allow inbound traffic on ports 8080 and 3000.
 
-3. **Connect to your EC2 instance**: SSH into your EC2 instance and proceed with the setup steps.
+3. **Connect to your EC2 instance**: SSH into your EC2 instance and proceed with the [setup](#step-by-step-guide) steps.
 
 ### Microsoft Azure: [Creating a Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
 
@@ -34,7 +34,7 @@ You can find detailed instructions on how to create and configure VM instances f
 
 2. **Set up NSGs**: Configure network security groups to permit traffic on ports 8080 and 3000.
 
-3. **Access your VM**: SSH into your Azure VM and follow the setup steps.
+3. **Access your VM**: SSH into your Azure VM and follow the [setup](#step-by-step-guide) steps.
 
 ## Running Locally
 
