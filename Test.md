@@ -32,6 +32,32 @@ You can find detailed instructions on how to create and configure VM instances f
 - **Amazon Web Services (AWS)**: [Launching an EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 - **Microsoft Azure**: [Creating a Virtual Machine](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
 
+### Example Configurations for VM Instances
+
+#### Google Cloud Platform (GCP)
+
+1. **Create a VM instance**: Follow the [GCP guide](https://cloud.google.com/compute/docs/instances/create-start-instance) to create a VM. Choose a machine type with at least 4GB of memory, such as `n1-standard-1`.
+
+2. **Configure firewall rules**: Allow traffic on ports 8080 and 3000 by setting up appropriate firewall rules.
+
+3. **SSH into your VM**: Access your VM through SSH and follow the setup steps provided above.
+
+#### Amazon Web Services (AWS)
+
+1. **Launch an EC2 instance**: Use the [AWS guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) to launch an EC2 instance. Select an instance type like `t2.medium` which offers 4GB of memory.
+
+2. **Configure security groups**: Ensure your security groups allow inbound traffic on ports 8080 and 3000.
+
+3. **Connect to your EC2 instance**: SSH into your EC2 instance and proceed with the setup steps.
+
+#### Microsoft Azure
+
+1. **Create a Virtual Machine**: Refer to the [Azure guide](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal) to create a VM. Opt for a machine size such as `Standard B2ms` with 4GB of memory.
+
+2. **Set up NSGs**: Configure network security groups to permit traffic on ports 8080 and 3000.
+
+3. **Access your VM**: SSH into your Azure VM and follow the setup steps.
+
 ## Step-by-Step Guide
 
 Now that you have everything ready, let's proceed with the setup.
@@ -74,32 +100,6 @@ Once the script has completed its tasks, you should see two running containers:
 - **max-backend**: You can access this at `http://<YOUR_IP>:8080`
 
 Replace `<YOUR_IP>` with the actual IP address of your machine or VM instance.
-
-### Example Configurations for VM Instances
-
-#### Google Cloud Platform (GCP)
-
-1. **Create a VM instance**: Follow the [GCP guide](https://cloud.google.com/compute/docs/instances/create-start-instance) to create a VM. Choose a machine type with at least 4GB of memory, such as `n1-standard-1`.
-
-2. **Configure firewall rules**: Allow traffic on ports 8080 and 3000 by setting up appropriate firewall rules.
-
-3. **SSH into your VM**: Access your VM through SSH and follow the setup steps provided above.
-
-#### Amazon Web Services (AWS)
-
-1. **Launch an EC2 instance**: Use the [AWS guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) to launch an EC2 instance. Select an instance type like `t2.medium` which offers 4GB of memory.
-
-2. **Configure security groups**: Ensure your security groups allow inbound traffic on ports 8080 and 3000.
-
-3. **Connect to your EC2 instance**: SSH into your EC2 instance and proceed with the setup steps.
-
-#### Microsoft Azure
-
-1. **Create a Virtual Machine**: Refer to the [Azure guide](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal) to create a VM. Opt for a machine size such as `Standard B2ms` with 4GB of memory.
-
-2. **Set up NSGs**: Configure network security groups to permit traffic on ports 8080 and 3000.
-
-3. **Access your VM**: SSH into your Azure VM and follow the setup steps.
 
 ## Troubleshooting
 
