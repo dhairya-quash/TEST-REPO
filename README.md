@@ -14,7 +14,7 @@ Welcome to the Quash Web Backend, your ultimate in-app bug reporting tool! Built
 ## Table of Contents
 - [Project Architecture](#project-architecture)
 - [Installation](#installation)
-- [Configurations](#configuration)
+- [Configurations](#configurations)
 - [Optional Integrations](#optional-integrations)
 - [Run Locally](#run-locally)
 
