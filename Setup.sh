@@ -38,13 +38,35 @@ sed -i "s|NEXT_PUBLIC_REFRESH_BASE_URL=http://localhost:8080|NEXT_PUBLIC_REFRESH
 sed -i "s|NEXT_PUBLIC_BACKEND_URL=http://localhost:8080|NEXT_PUBLIC_BACKEND_URL=http://$EXTERNAL_IP:8080|g" $FRONTEND_ENV
 
 echo "Please add your credentials to $BACKEND_ENV and $FRONTEND_ENV."
-echo "Opening $BACKEND_ENV in nano editor..."
-sleep 2
-nano $BACKEND_ENV
 
-echo "Opening $FRONTEND_ENV in nano editor..."
-sleep 2
-nano $FRONTEND_ENV
+# Function to check if nano is available
+function check_nano {
+    if command -v nano &> /dev/null; then
+        echo "nano is installed"
+        return 0
+    else
+        echo "nano is not installed"
+        return 1
+    fi
+}
+
+# Check if nano is available and open the appropriate editor
+if check_nano; then
+    echo "Opening $BACKEND_ENV in nano editor..."
+    sleep 2
+    nano $BACKEND_ENV
+    echo "Opening $FRONTEND_ENV in nano editor..."
+    sleep 2
+    nano $FRONTEND_ENV
+else
+    echo "nano is not installed, falling back to notepad"
+    echo "Opening $BACKEND_ENV in notepad..."
+    sleep 2
+    notepad $BACKEND_ENV
+    echo "Opening $FRONTEND_ENV in notepad..."
+    sleep 2
+    notepad $FRONTEND_ENV
+fi
 
 docker cp ./$BACKEND_ENV max-backend:/app/backend/$BACKEND_ENV
 docker cp ./$FRONTEND_ENV max-frontend:/app/frontend/$FRONTEND_ENV
