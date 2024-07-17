@@ -14,7 +14,7 @@ Welcome to the Quash Web Backend, your ultimate in-app bug reporting tool! Built
 ## Table of Contents
 - [Project Architecture](#project-architecture)
 - [Installation](#installation)
-- [Configurations](##configuration)
+- [Configurations](#configuration)
 - [Optional Integrations](#optional-integrations)
 - [Run Locally](#run-locally)
 
@@ -62,7 +62,7 @@ cd QuashBackend
 mvn clean install
 ```
 
-## Configurations
+# Configurations
 > Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.<br>
 >
 
