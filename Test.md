@@ -8,6 +8,7 @@ If you plan to run Quash on a virtual machine (VM) hosted in the cloud, here are
 
 - Choose a VM instance with at least 4GB of memory.
 - Configure your firewall rules to allow traffic on ports 8080 and 3000.
+-----
 
 You can find detailed instructions on how to create and configure VM instances for different cloud providers here:
 
