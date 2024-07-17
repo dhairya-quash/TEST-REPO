@@ -1,4 +1,4 @@
-# Official Backend for [Quash Max](https://quashbugs.com/)
+# Official Backend for [Quash](https://quashbugs.com/)
 
 Welcome to the Quash Web Backend, your ultimate in-app bug reporting tool! Built by developers for developers, this web dashboard captures everything you need to start fixing issues right away. It dispalys crash logs, session replays, network logs, device information, and much more, ensuring you have all the details at your fingertips.
 
@@ -62,7 +62,7 @@ cd QuashBackend
 mvn clean install
 ```
 
-## Application.properties
+## Configurations
 > Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.<br>
 >
 
@@ -215,3 +215,17 @@ mvn spring-boot:run
 ```
 ## Swagger Endpoint
 http://<YOUR_IP>:8080/swagger-ui/index.html
+
+## Repository Structure
+
+This backend repository is part of the larger Quash project, located in the parent repository at https://github.com/Oscorp-HQ/quash-max. The parent repository contains multiple components of the Quash project, including this backend.
+
+For information on other components and how they interact, please refer to the main README in the parent repository.
+
+## Contributing
+
+For contribution guidelines, please refer to the CONTRIBUTING.md file in the parent repository.
+
+## License
+
+This project is licensed under the terms specified in the LICENSE file in the parent repository.
