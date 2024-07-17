@@ -1,4 +1,4 @@
-# Official Backend for [Quash](https://quashbugs.com/)
+# Official Backend for [Quash Max](https://quashbugs.com/)
 
 Welcome to the Quash Web Backend, your ultimate in-app bug reporting tool! Built by developers for developers, this web dashboard captures everything you need to start fixing issues right away. It dispalys crash logs, session replays, network logs, device information, and much more, ensuring you have all the details at your fingertips.
 
