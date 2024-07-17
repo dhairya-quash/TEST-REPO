@@ -14,7 +14,7 @@ Welcome to the Quash Web Backend, your ultimate in-app bug reporting tool! Built
 ## Table of Contents
 - [Project Architecture](#project-architecture)
 - [Installation](#installation)
-- [Configurations](#configuration)
+- [Configurations](##configuration)
 - [Optional Integrations](#optional-integrations)
 - [Run Locally](#run-locally)
 
@@ -214,7 +214,7 @@ Run the `QuashApplication` File
 mvn spring-boot:run
 ```
 ## Swagger Endpoint
-[http://<YOUR_IP>:8080/swagger-ui/index.html]
+<http://{YOUR_IP}:8080/swagger-ui/index.html>
 
 ## Repository Structure
 
