@@ -16,6 +16,10 @@ Welcome to Quash! This quick start guide will help you set up the application us
    - [`docker-compose.yml`](https://github.com/dhairya-quash/TEST-REPO/blob/main/docker-compose.yml)
    - [`setup.sh`](https://github.com/dhairya-quash/TEST-REPO/blob/main/Setup.sh)
 
+## Considerations for Hosted VM Instance
+1. 4GB CPU
+2. Enabling imbound and outbound traffic on ports 8080 and 3000 in firewall rules and polices.
+
 ## Step-by-Step Guide
 
 ### 1. Running the Setup Script
