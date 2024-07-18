@@ -130,7 +130,8 @@ If you run into any issues during the setup process, here are a few tips:
 - **Read error messages**: Pay close attention to any error messages and logs provided during the setup. These can give you clues about what might be going wrong.
 
 ## Bonus :
-If you are using a dynamic IP on a hosted VM instance, stopping the instance will stop the container, and when starting it again, the external IP address of the VM instance will change. But we got you covered! Run the `restart.sh` script in your working directory of the VM and the IP address will be updated for the docker containers and will start the containers for you.
+If you are utilizing a dynamic IP on a hosted VM instance, please be aware that stopping the instance will halt the container, and upon starting it again, the external IP address of the VM instance will change. However, we have a solution for you. By running the [restart-max.sh](https://github.com/dhairya-quash/TEST-REPO/blob/main/restart-max.sh) script in your working directory on the VM, the IP address will be updated for the Docker containers, and the containers will be restarted automatically.
+This process is specifically designed for users operating hosted VM instances.
 
 ## Conclusion
 
