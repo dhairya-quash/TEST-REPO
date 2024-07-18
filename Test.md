@@ -151,6 +151,6 @@ If you are utilizing a dynamic IP on a hosted VM instance, please be aware that 
 
 ## Conclusion
 
-Congratulations! You have successfully set up Quash using Docker. If you have any questions or need further assistance, don't hesitate to reach out to the Quash community or consult the documentation.
+Congratulations! You have successfully set up Quash using Docker. If you have any questions or need further assistance, don't hesitate to reach out to the Quash community via [Discord](https://discord.com/invite/Nxbe8F6aqw) or consult the documentation.
 
 Happy bug reporting!
