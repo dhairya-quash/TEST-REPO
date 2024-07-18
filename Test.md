@@ -129,6 +129,9 @@ If you run into any issues during the setup process, here are a few tips:
 - **Verify file locations**: Make sure the `docker-compose.yml` and `setup.sh` files are in the correct directory.
 - **Read error messages**: Pay close attention to any error messages and logs provided during the setup. These can give you clues about what might be going wrong.
 
+## Bonus :
+If you are using a dynamic IP on a hosted VM instance, stopping the instance will stop the container, and when starting it again, the external IP address of the VM instance will change. But we got you covered! Run the `restart.sh` script in your working directory of the VM and the IP address will be updated for the docker containers and will start the containers for you.
+
 ## Conclusion
 
 Congratulations! You have successfully set up Quash using Docker. If you have any questions or need further assistance, don't hesitate to reach out to the Quash community or consult the documentation.
