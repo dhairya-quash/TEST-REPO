@@ -2,6 +2,14 @@
 
 Welcome to Quash! This guide will walk you through the process of setting up Quash using Docker, whether you're working on your local machine or a hosted VM instance. We've designed this guide to be comprehensive and easy to follow. Let's get started!
 
+## Quick Links
+- [Host a VM Instance](#google-cloud-platform)
+- [Running Locally](#running-locally)
+- [Prerequisites](#prerequisites)
+- [Step-By-Step Guide](#step-by-step-guide)
+- [Troubleshooting](#troubleshooting)
+
+
 ## Considerations for Hosted VM Instances
 
 If you plan to run Quash on a virtual machine (VM) hosted in the cloud, here are a few things to consider:
