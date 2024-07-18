@@ -4,9 +4,9 @@ Welcome to Quash! This guide will walk you through the process of setting up Qua
 
 ## Quick Links
 - Host a VM Instance
-  - [Google Cloud Platform](#gcp)
-  - [Amazon Web Series](#amazon-web-services)
-  - [Azure](#azure)
+  - [Google Cloud Platform](#google-cloud-platform-gcp)
+  - [Amazon Web Services](#amazon-web-services-aws)
+  - [Azure](#microsoft-azure)
 - [Running Locally](#running-locally)
 - [Prerequisites](#prerequisites)
 - [Step-By-Step Guide](#step-by-step-guide)
