@@ -69,8 +69,8 @@ Docker allows you to run applications in isolated containers, while Docker Compo
 
 Make sure you have the following files downloaded and saved in a folder on your computer:
 
-- `docker-compose.yml`
-- `setup.sh`
+- [`docker-compose.yml`](https://github.com/Oscorp-HQ/quash-max/blob/main/docker-compose.yml)
+- [`setup.sh`](https://github.com/Oscorp-HQ/quash-max/blob/main/setup.sh)
 
 These files contain the instructions and configurations needed to set up Quash.
 
@@ -146,7 +146,7 @@ If you run into any issues during the setup process, here are a few tips:
 - **Read error messages**: Pay close attention to any error messages and logs provided during the setup. These can give you clues about what might be going wrong.
 
 ## Bonus :
-If you are utilizing a dynamic IP on a hosted VM instance, please be aware that stopping the instance will halt the container, and upon starting it again, the external IP address of the VM instance will change. However, we have a solution for you. By running the [restart-max.sh](https://github.com/dhairya-quash/TEST-REPO/blob/main/restart-max.sh) script in your working directory on the VM, the IP address will be updated for the Docker containers, and the containers will be restarted automatically.
+If you are utilizing a dynamic IP on a hosted VM instance, please be aware that stopping the instance will halt the container, and upon starting it again, the external IP address of the VM instance will change. However, we have a solution for you. By running the [restart-max.sh](https://github.com/Oscorp-HQ/quash-max/blob/main/restart-max.sh) script in your working directory on the VM, the IP address will be updated for the Docker containers, and the containers will be restarted automatically.
 **This process is specifically designed for users operating hosted VM instances.**
 
 ## Conclusion
