@@ -88,7 +88,7 @@ For frontend setup and deployment instructions, please refer to the [frontend RE
 
 ## Quick Start Guide
 
-For a detailed, step-by-step guide on setting up Quash using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](./TEST.md).
+For a detailed, step-by-step guide on setting up Quash using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](./Test.md).
 
 ## Contributing
 
