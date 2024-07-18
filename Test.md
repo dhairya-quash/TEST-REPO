@@ -106,27 +106,27 @@ As the setup script runs, it will guide you through several steps:
 
 1. **Create containers**: The script will prepare the Docker containers for Quash but will not start them yet.
 
-   <div align="center"> <img src="https://github.com/user-attachments/assets/dafb68e6-c3a5-457c-8abd-10c345ab887d" alt="Containers started" width=700> </div>
-   <br>
+<div align="center"> <img src="https://github.com/user-attachments/assets/dafb68e6-c3a5-457c-8abd-10c345ab887d" alt="Containers started" width=1000> </div>
+<br>
 
 2. **Specify your environment**: You will be asked if you are setting up Quash on a hosted VM instance or locally on your computer. Based on your response, the script will configure the IP addresses for the frontend and backend.
-<div align="center"> <img src="https://github.com/user-attachments/assets/9676f186-fbad-4e54-86f0-3b0ec41d7e4c" alt="which environment" width=700> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/9676f186-fbad-4e54-86f0-3b0ec41d7e4c" alt="which environment" width=1000> </div>
 <br>
 
 3. **Configure environment files**: The script will copy environment configuration files from the containers to your local directory. You will need to open these files and add your credentials and secrets. This information is crucial for the proper functioning of Quash.
 <br>
-<div align="center"> <img src="https://github.com/user-attachments/assets/9631d393-ecfb-4340-933d-1501b40ca270" alt="Opening application.properties" width=700> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/9631d393-ecfb-4340-933d-1501b40ca270" alt="Opening application.properties" width=1000> </div>
 <br>
-<div align="center"> <img src="https://github.com/user-attachments/assets/0b4deeb3-49f0-4a20-8cb1-b04b4f87f334" alt="nano editor" width=700> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/0b4deeb3-49f0-4a20-8cb1-b04b4f87f334" alt="nano editor" width=1000> </div>
 <br>
-<div align="center"> <img src="https://github.com/user-attachments/assets/a40420f9-de71-44b1-a30a-3913ba34fc43" alt="opening .env.local" width=700> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/a40420f9-de71-44b1-a30a-3913ba34fc43" alt="opening .env.local" width=1000> </div>
 <br>
-<div align="center"> <img src="https://github.com/user-attachments/assets/c841a93f-09de-481b-b0d0-2696f7b1a5cc" alt="nano editor" width=700> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/c841a93f-09de-481b-b0d0-2696f7b1a5cc" alt="nano editor" width=1000> </div>
 <br>
 
 4. **Finalize setup**: After you have edited the configuration files, the script will copy them back to the containers and start them.
 <br>
-<div align="center"> <img src="https://github.com/user-attachments/assets/d5348dd8-4d94-40c5-94ca-385d08f6ae18" alt="Containers started" width=700> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/d5348dd8-4d94-40c5-94ca-385d08f6ae18" alt="Containers started" width=1000> </div>
 
 ### Verify the Setup
 
