@@ -10,7 +10,7 @@ Welcome to Quash! We're excited to introduce our next-generation mobile developm
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Architecture](#architecture)
-4. [Installation](#installation)
+4. [Installation](#quick-start-guide--installation)
 5. [Usage](#usage)
 6. [Contributing](#contributing)
 7. [License](#license)
@@ -65,18 +65,20 @@ Quash comprises three main components: the SDK, the backend, and the frontend.
 - **Next.js Dashboard:** A user-friendly web interface for viewing and managing bug reports.
 - **Real-Time Data:** Displays real-time data captured by the SDK, with options for collaboration and issue tracking.
 
-## Installation
-
-### SDK Installation
-For detailed SDK installation instructions, please refer to the individual [README files in the SDK directory](./android/README.md).
-
-### Backend Installation
-For backend setup and deployment instructions, please refer to the [backend README file](./backend/README.md).
-
-### Frontend Installation
-For frontend setup and deployment instructions, please refer to the [frontend README file](./frontend/README.md).
+## Quick Start Guide & Installation
 
 For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/Oscorp-HQ/quash-max/blob/main/Quickstart.md).
+
+### SDK 
+For detailed SDK instructions, please refer to the individual [README files in the SDK directory](./android/README.md).
+
+### Backend 
+For backend setup and deployment instructions, please refer to the [backend README file](./backend/README.md).
+
+### Frontend 
+For frontend setup and deployment instructions, please refer to the [frontend README file](./frontend/README.md).
+
+
 
 ## Usage
 
@@ -88,10 +90,6 @@ For a detailed, step-by-step guide on setting up Quash's Frontend and Backend us
 ### Managing Bugs
 1. **Dashboard Access:** Log in to the Quash web dashboard.
 2. **View Reports:** Access detailed bug reports with all captured data.
-
-## Quick Start Guide
-
-For a detailed, step-by-step guide on setting up Quash using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](./Test.md).
 
 ## Contributing
 
