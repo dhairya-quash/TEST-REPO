@@ -84,7 +84,7 @@ Welcome to the Quash Frontend repository, part of the [Quash](https://quashbugs.
 2. Create a container without running.
 
    ```bash
-   docker create --name max-frontend -p 8080:8080 quashbugs/quash-max-frontend:latest
+   docker create --name max-frontend -p 3000:3000 quashbugs/quash-max-frontend:latest
    ```
 
 3. Extract the `application.properties` file to configure environment variables.
