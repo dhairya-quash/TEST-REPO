@@ -1,231 +1,109 @@
-# Official Backend for [Quash](https://quashbugs.com/)
 
-Welcome to the Quash Web Backend, your ultimate in-app bug reporting tool! Built by developers for developers, this web dashboard captures everything you need to start fixing issues right away. It dispalys crash logs, session replays, network logs, device information, and much more, ensuring you have all the details at your fingertips.
+<Meta title="Quash README" />
 
-<div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/7f7b7ffd-66f4-45d7-b68e-01fcedff0a75" alt="Logo" width=1000> </div>
+# Quash: Your Ultimate In-App Bug Reporting Solution
+<div align="center"> <img src="https://github.com/user-attachments/assets/e3cdb94c-4596-4955-9f3b-14cc004b1733" alt="Quash Banner" width=1000> </div>
 <br>
-
-| **Reporting** 🗒️ | **Resolution** ✅ | **Collaboration** 🤝🏻 |
-| :--------: | :---------: | :---------: |
-| Raise comprehensive tickets with minimal effort | Know exactly where the bug is - and how to fix it | Manage all your testing workflows in a single place |
-
----
+Welcome to Quash! We're excited to introduce our next-generation mobile development tool designed to revolutionize the way you test and debug your applications. With Quash, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
 
 ## Table of Contents
-- [Project Architecture](#project-architecture)
-- [Installation](#installation)
-- [Configurations](#configurations)
-- [Optional Integrations](#optional-integrations)
-- [Run Locally](#run-locally)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Architecture](#architecture)
+4. [Installation](#quick-start-guide--installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-## Project Architecture
+## Introduction
 
-The project is structured into the following layers:
+Quash is an SDK-enabled bug reporting solution that helps users report bugs efficiently with just a simple shake. Our tool tracks and resolves bugs through the Quash web dashboard, ensuring your mobile apps are released on time with the highest quality standards. With Quash, teams can optimize the time and resources spent on the testing process, making mobile testing smooth and straightforward.
 
-- **Controller**
-- **Service**
-- **Repository**
-- **Model**
-- **DTO**
-- **Utility**
+## Features
 
-<div align="center"><img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/2f2e2354-0158-4cd8-879b-4d32aeb9ac13" alt="Architecture"></div>
+### Easy Setup
+- **Quick Integration:** Integrate the Quash SDK with your application in less than 5 minutes.
+- **Detailed Guides:** Follow our comprehensive guides for seamless setup.
 
-## DB Schema
-<div align="center"> <img src="https://github.com/dhairya-quash/TEST-REPO/assets/161799860/6a21b88f-9ae5-4b72-9270-fe356412dc16" alt="Flow" width=1000> </div>
-<br>
+### In-App Bug Reporting
+- **Shake to Report:** Simply shake your device to launch the reporting window, prefilled with essential information.
+- **Intuitive Interface:** Log bugs in seconds with our user-friendly interface.
 
-## Report Generation Flow
-<div align="center"> <img src="https://github.com/Oscorp-HQ/quash-backend/assets/161799860/65d6b494-4867-43ed-970a-676feb6a7272" alt="Flow" width=1000> </div>
-<br>
+### Automated Crash Detection
+- **Real-Time Capture:** Automatically detect and capture crash events along with all necessary information.
+- **Reproduce-Free Debugging:** No need to reproduce crashes manually.
 
-This guide will provide you steps to setup and configure the Backend for Quash Max.
+### Information Auto-Capture
+- **Comprehensive Data Collection:** Auto-capture screenshots, session recordings, crash logs, steps to reproduce, device information, and API/network calls.
+- **Detailed Bug Reports:** Each bug report includes all relevant data at the moment of the crash or when shaking the device.
 
-Quash Max is built using the following technologies:
-- [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.installing)
-- [MongoDB](https://www.mongodb.com/docs/manual/installation/)
-- Maven
-- JWT Authentication
+### External Media Attachments
+- **Enhanced Reports:** Add audio recordings, pictures, videos, and other media files to bug reports.
 
-# Installation
-```bash
-# Move to your workspace
-cd your-workspace
+### Bug Tracking and Collaboration
+- **Web Dashboard:** Manage all reported bugs and crashes through the Quash web dashboard.
+- **Collaboration Tools:** View, track, prioritize, and comment on bugs for efficient resolution.
 
-# Clone this project in your workspace
-git clone https://github.com/Oscorp-HQ/QuashBackend.git
+### Seamless Integrations
+- **Popular Tools:** Integrate with Jira, Slack, Google Sheets, Linear, GitHub, and more.
+- **Streamlined Workflow:** Export tickets directly to these platforms for a seamless bug tracking and resolution process.
 
-# Move to the project root directory
-cd QuashBackend
+## Architecture
 
-#Run this maven command
-mvn clean install
-```
+Quash comprises three main components: the SDK, the backend, and the frontend.
 
-# Configurations
-> Navigate to the resources directory and open the `application.properties` file. Here you will add your database connection strings, access tokens, secret keys for different integrations and services.<br>
->
+### SDK
+- **Android SDK:** The Quash SDK for Android provides in-app bug reporting and crash detection.
+- **Integration:** Simple integration with your application, including network interception and configuration.
 
-**JWT configurations**
-```java
-jwt.secret={JWT_SECRET}
-jwt.expirationMs={JWT_EXPIRATION_MS}
-token.signing.key={TOKEN_SIGNING_KEY}
-```
+### Backend
+- **Spring Boot Application:** Handles API requests, processes bug reports, and manages integrations with third-party tools.
+- **Scalable Infrastructure:** Built to handle high volumes of data and concurrent users.
 
-**Set a Jasypt Password Encryption Key**
-```java
-jasypt.encryption.password={JASYPT_ENCRYPTION_PASSWORD}
-```
+### Frontend
+- **Next.js Dashboard:** A user-friendly web interface for viewing and managing bug reports.
+- **Real-Time Data:** Displays real-time data captured by the SDK, with options for collaboration and issue tracking.
 
-**Add your Frontend URL**
-```java
-spring.frontend.url={FRONTEND_URL}
-```
+## Quick Start Guide & Installation
 
-**Add your Spring Base URL**
-```java
-spring.url={BACKEND_URL}
-```
-**Set Access and Refresh Token expiry time**
-```java
-# Access Token expiry - 6 days
-token.accessToken.expiration=518400000
-# Refresh Token expiry - 8 days
-token.refreshToken.expiration=691200000
-```
-**File upload configurations**
-```java
-spring.servlet.multipart.enabled=true
-spring.servlet.multipart.max-file-size=15MB
-spring.servlet.multipart.max-request-size=15MB
-```
-**Management endpoint configurations**
-```java
-management.endpoints.web.exposure.include=*
-spring.main.lazy-initialization=true
-```
+For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/Oscorp-HQ/quash-max/blob/main/Quickstart.md).
 
-**MongoDB Connection String for Database** 
-```java
-spring.data.mongodb.uri={MONGODB_URI}
-```
+### SDK 
+For detailed SDK instructions, please refer to the individual [README files in the SDK directory](./android/README.md).
 
-**Cloud provider configurations**
-```java
-# Specify the cloud provider (aws, gcp, azure)
-cloud.provider={CLOUD_PROVIDER}
-```
+### Backend 
+For backend setup and deployment instructions, please refer to the [backend README file](./backend/README.md).
 
-**GCP-specific properties**
-```java
-gcp.bucket.name={GCP_BUCKET_NAME}
-gcp.credentials.project-id={GCP_PROJECT_ID}
-gcp.credentials.client-email={GCP_CLIENT_EMAIL}
-gcp.credentials.private-key={GCP_PRIVATE_KEY}
-```
-
-**AWS-specific properties**
-```java
-aws.access.key.id={YOUR_ACCESS_KEY_ID}
-aws.secret.access.key={YOUR_SECRET_ACCESS_KEY}
-aws.bucket.name={YOUR_BUCKET_NAME}
-aws.region={region}
-```
-
-**Azure-specific properties**
-```java
-azure.account.name={AZURE_ACCOUNT_NAME}
-azure.account.key={AZURE_ACCOUNT_KEY}
-azure.container.name={AZURE_CONTAINER_NAME}
-```
-
-**Mail Service**
-Setup a mail service and get required credentials
-```java
-spring.mail.host={SMTP_HOST}
-spring.mail.username={SMTP_USERNAME}
-spring.mail.password={SMTP_PASSWORD}
-spring.mail.properties.mail.transport.protocol=smtp
-spring.mail.properties.mail.smtp.port=587
-spring.mail.properties.mail.smtp.auth=true
-spring.mail.properties.mail.smtp.starttls.enable=true
-spring.mail.properties.mail.smtp.starttls.required=true
-from.email.address={FROM_EMAIL_ADDRESS}
-```
-
-### Optionally you can use Google OAuth for signin and signup.
-**Google OAuth**
-```java
-spring.security.oauth2.client.registration.google.client-id={YOUR_CLIENT_ID}
-spring.security.oauth2.client.registration.google.client-secret={YOUR_CLIENT_SECRET}
-```
-
-## Optional Integrations
-Below are some integrations where you can export your tickets to. Configure the integration of your choice by adding the required credentials mentioned.
-- [Jira](#jira-integration)
-- [Slack](#slack-integration)
-- [Linear](#linear-integration)
-- [Github](#github-integration)
-
-<h3 id="jira-integration"> Jira integration </h3>
-<div>Add your Jira account credentials</div>
-
-```java
-spring.atlassian.jira.client_id={ATLASSIAN_JIRA_CLIENT_ID}
-spring.atlassian.jira.client_secret={ATLASSIAN_JIRA_CLIENT_SECRET}
-spring.atlassian.jira.auth_endpoint={ATLASSIAN_JIRA_AUTH_ENDPOINT}
-spring.atlassian.jira.accessible_resource_endpoint={ATLASSIAN_JIRA_RESOURCE_ENDPOINT}
-```
+### Frontend 
+For frontend setup and deployment instructions, please refer to the [frontend README file](./frontend/README.md).
 
 
-<h3 id="slack-integration"> Slack integration </h3>
 
-Add your [Slack](https://api.slack.com/apps) account credentials
-```java
-spring.slack.heimdall_clientId={SLACK_HEIMDALL_CLIENT_ID}
-spring.slack.heimdall_clientSecret={SLACK_HEIMDALL_CLIENT_SECRET}
-spring.slack.redirectUri={SLACK_REDIRECT_URI}
-```
+## Usage
 
+### Reporting Bugs
+1. **Shake Device:** Trigger the bug report by shaking your device.
+2. **Fill Report:** Use the prefilled bug report window to add any additional details.
+3. **Submit:** Submit the report, which is then captured and sent to the Quash web dashboard.
 
-<h3 id="linear-integration"> Linear integration </h3>
-
-Add your Linear account credentials
-```java
-spring.linear.client_id={LINEAR_CLIENT_ID}
-spring.linear.auth_endpoint={LINEAR_AUTH_ENDPOINT}
-spring.linear.redirect_uri={LINEAR_REDIRECT_URI}
-spring.linear.client_secret={LINEAR_CLIENT_SECRET}
-```
-
-<h3 id="github-integration"> Github </h3>
-
-Add your Github account credentials
-```java
-spring.github.client_id={GITHUB_CLIENT_ID}
-spring.github.client_secret={GITHUB_CLIENT_SECRET}
-spring.github.redirect_url={GITHUB_REDIRECT_URL}
-```
-
-## Run Locally
-Run the `QuashApplication` File
-```java
-mvn spring-boot:run
-```
-## Swagger Endpoint
-<http://{YOUR_IP}:8080/swagger-ui/index.html>
-
-## Repository Structure
-
-This backend repository is part of the larger Quash project, located in the parent repository at https://github.com/Oscorp-HQ/quash-max. The parent repository contains multiple components of the Quash project, including this backend.
-
-For information on other components and how they interact, please refer to the main README in the parent repository.
+### Managing Bugs
+1. **Dashboard Access:** Log in to the Quash web dashboard.
+2. **View Reports:** Access detailed bug reports with all captured data.
 
 ## Contributing
 
-For contribution guidelines, please refer to the CONTRIBUTING.md file in the parent repository.
+We love contributions! Please read our [contribution guidelines](./CONTRIBUTING.md) to get started. We welcome all kinds of contributions, from code enhancements to documentation improvements.
 
 ## License
 
-This project is licensed under the terms specified in the LICENSE file in the parent repository.
+Quash is licensed under the [MIT License](./LICENSE).
+
+
+## Contact
+
+For any questions or support, please reach out to us at [support@quashbugs.com](mailto:support@quashbugs.com).
+
+---
+
+Thank you for choosing Quash! We look forward to helping you streamline your mobile app testing and bug reporting processes. Let's build something amazing together!
