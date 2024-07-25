@@ -80,7 +80,7 @@ Quash comprises three main components: the SDK, the backend, and the frontend.
 
 For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/Oscorp-HQ/quash-max/Quickstart.md).
 
-Want to setup max and run it quickly? Follow these steps:
+### Want to setup max and run it quickly? Follow these steps:
 
 1.  [Fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) to your own Github account.
 
