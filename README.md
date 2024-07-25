@@ -119,7 +119,7 @@ For frontend setup and deployment instructions, please refer to the [frontend RE
 
 ## Contributing
 
-We love contributions! Please read our [contribution guide](./CONTRIBUTING.md) to get started. We welcome all kinds of contributions, from code enhancements to documentation improvements.
+We love contributions! Please read our [contribution guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Contribution%20Guide.md) to get started. We welcome all kinds of contributions, from code enhancements to documentation improvements.
 
 ## License
 
