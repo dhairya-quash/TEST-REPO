@@ -97,15 +97,15 @@ For a detailed, step-by-step guide on setting up Quash's Frontend and Backend us
 
 ### SDK
 
-For detailed SDK instructions, please refer to the individual [README files in the SDK directory](./android/README.md).
+For detailed SDK instructions, please refer to the individual [README files in the SDK directory](https://github.com/dhairya-quash/TEST-REPO/tree/main/android).
 
 ### Backend
 
-For backend setup and deployment instructions, please refer to the [backend README file](./backend/README.md).
+For backend setup and deployment instructions, please refer to the [backend README file](https://github.com/dhairya-quash/TEST-REPO/tree/main/backend).
 
 ### Frontend
 
-For frontend setup and deployment instructions, please refer to the [frontend README file](./frontend/README.md).
+For frontend setup and deployment instructions, please refer to the [frontend README file](https://github.com/dhairya-quash/TEST-REPO/tree/main/frontend).
 
 ## Usage
 
