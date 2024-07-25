@@ -23,6 +23,10 @@ Welcome to the Quash Android SDK, your ultimate in-app bug reporting tool! Built
 
 # Installation
 
+### Note
+
+> Quash SDK has a dependency on backend for providing the required APIs for saving the session replay, media and other bug report related data. So in order to view the bug reports you create or test any changes that you make in the SDK, you need a working backend for it. To do so, please setup max backend by referring to the [Backend Setup](../backend)
+
 ### **Dependencies**
 
 Ensure your Android project is compatible with the Quash SDK by setting the **`minSdkVersion`** to 24 or higher. This requirement supports advanced functionalities such as session replay processing and encoding.

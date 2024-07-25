@@ -11,11 +11,12 @@ Welcome to Quash! We're excited to introduce our next-generation mobile developm
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Architecture](#architecture)
-4. [Installation](#quick-start-guide--installation)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+4. [Deployment with Docker](#deployment-with-docker)
+5. [Developer Setup](#developer-setup)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
 ## Introduction
 
@@ -76,11 +77,13 @@ Quash comprises three main components: the SDK, the backend, and the frontend.
 - **Next.js Dashboard:** A user-friendly web interface for viewing and managing bug reports.
 - **Real-Time Data:** Displays real-time data captured by the SDK, with options for collaboration and issue tracking.
 
-## Quick Start Guide & Installation
+## Deployment with Docker
 
 For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/Oscorp-HQ/quash-max/Quickstart.md).
 
-### Want to setup max and run it quickly? Follow these steps:
+## Developer Setup
+
+### Need a quick setup for max? Follow these steps:
 
 1.  [Fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) to your own Github account.
 

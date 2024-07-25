@@ -254,7 +254,7 @@ mvn spring-boot:run
 
 ## Accessible Endpoint
 
-http://localhost:8080/swagger-ui/index.html
+http://{YOUR-IP}:8080/swagger-ui/index.html
 <br>
 
 ## Repository Structure
