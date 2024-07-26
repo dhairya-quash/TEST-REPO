@@ -1,14 +1,16 @@
 <Meta title="Quash README" />
 
 # Quash: Your Ultimate In-App Bug Reporting Solution
+
 <div align="center"> <img src="https://github.com/user-attachments/assets/e3cdb94c-4596-4955-9f3b-14cc004b1733" alt="Quash Banner" width=1000> </div>
 <br>
-Welcome to Quash! We're excited to introduce our next-generation mobile development tool designed to revolutionize the way you test and debug your applications. With Quash, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
-<br>
 
-<div style="margin-top: 40px; text-align: center; width: 500px; margin-left: auto; margin-right: auto;">
-  <a href="https://discord.com/invite/Nxbe8F6aqw" style="margin: 10px;">
-    <img src="https://img.shields.io/badge/Discord-Appstronauts-5865F2?style=&logo=Discord" alt="Discord">
+<p align="center">
+  <a href="https://quashbugs.com/" style="margin: 10px;"> <img src="https://img.shields.io/badge/Quash-yellow" alt="Quash website">
+  </a>
+  <a href="https://github.com/Oscorp-HQ/quash-max/issues" style="margin: 10px;"> <img src="https://img.shields.io/badge/issues-maroon" alt="Issues">
+  </a>
+  <a href="https://discord.com/invite/Nxbe8F6aqw" style="margin: 10px;"> <img src="https://img.shields.io/badge/Discord-Appstronauts-5865F2?style=&logo=Discord" alt="Discord">
   </a>
   <a href="https://github.com/dhairya-quash/TEST-REPO/blob/main/Code%20Of%20Conduct.md" style="margin: 10px;">
     <img src="https://img.shields.io/badge/Code_of_Conduct-1.0-yellow" alt="Code of Conduct">
@@ -21,11 +23,13 @@ Welcome to Quash! We're excited to introduce our next-generation mobile developm
   </a>
   <a href="https://hub.docker.com/repository/docker/dhairya07/quash-max-frontend/general" style="margin: 10px;">
     <img src="https://img.shields.io/badge/Docker%20Image-Frontend-green?logo=docker" alt="Frontend Docker Image">
+  </a>>
   </a>
-  <a href="https://hub.docker.com/repositories/dhairya07" style="margin: 10px;">
-    <img src="https://img.shields.io/badge/Docker_Images-Frontend_&_Backend-2496ED?logo=docker" alt="Docker">
-  </a>
-</div>
+</p>
+<br>
+
+Welcome to Quash! We're excited to introduce our next-generation mobile development tool designed to revolutionize the way you test and debug your applications. With Quash, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
+<br>
 
 ## Community and Next Steps
 
