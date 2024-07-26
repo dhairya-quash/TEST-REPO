@@ -6,11 +6,6 @@
 <br>
 Welcome to Quash! We're excited to introduce our next-generation mobile development tool designed to revolutionize the way you test and debug your applications. With Quash, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
 
-<br>
-
-[![Discord](https://img.shields.io/badge/Discord-Appstronauts-5865F2?style=&logo=Discord)](https://discord.com/invite/Nxbe8F6aqw) [![Code of Conduct](https://img.shields.io/badge/Code_of_Conduct-1.0-yellow)](https://github.com/dhairya-quash/TEST-REPO/blob/main/Code%20Of%20Conduct.md) [![license](https://img.shields.io/badge/license-MIT-orange)](https://github.com/Oscorp-HQ/quash-max/blob/main/LICENSE.md) [![Backend Docker Image](https://img.shields.io/badge/Docker%20Image-Backend-blue?logo=docker)](https://hub.docker.com/repository/docker/dhairya07/quash-max-backend/general) [![Frontend Docker Image](https://img.shields.io/badge/Docker%20Image-Frontend-green?logo=docker)](https://hub.docker.com/repository/docker/dhairya07/quash-max-frontend/general) [![Docker](https://img.shields.io/badge/Docker_Images-Frontend_&_Backend-2496ED?logo=docker)](https://hub.docker.com/repositories/dhairya07)
-
-
 <div align="center">
   <a href="https://discord.com/invite/Nxbe8F6aqw">
     <img src="https://img.shields.io/badge/Discord-Appstronauts-5865F2?style=&logo=Discord" alt="Discord">
@@ -31,8 +26,6 @@ Welcome to Quash! We're excited to introduce our next-generation mobile developm
     <img src="https://img.shields.io/badge/Docker_Images-Frontend_&_Backend-2496ED?logo=docker" alt="Docker">
   </a>
 </div>
-
----
 
 ## Community and Next Steps
 
