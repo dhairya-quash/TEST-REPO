@@ -110,15 +110,19 @@ We love contributions! Please read our [contribution guide](https://github.com/d
 
 1.  [Fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) to your own Github account.
 
-2.  After forking the repository, clone it to your local device by using the following command:
+2.  Move to your workspace:
+       ```bash
+       cd your-workspace
+       ```
+3.  After forking the repository, clone it to your local device by using the following command:
 
     ```bash
     git clone https://github.com/Oscorp-HQ/quash-max.git
     ```
 
-3. Navigate to the directory where you cloned the repo. Move to the directory of your choice and start making changes:
+4. Navigate to the directory where you cloned the repo. Move to the directory of your choice and start making changes:
     ```bash
-    cd android
+    cd quash-max/android
     ```
 
 **For running different components, refer to their respective guides:**
