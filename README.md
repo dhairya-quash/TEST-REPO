@@ -83,6 +83,7 @@ Quash is an SDK-enabled bug reporting solution that helps users report bugs effi
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/a23406ea-b511-423f-b38c-5d947fac222d" alt="Quash Banner" width=1000> </div>
 <br>
+
 1. **Dashboard Access:** Log in to the Quash web dashboard.
 2. **View Reports:** Access detailed bug reports with all captured data.
 
