@@ -124,6 +124,13 @@ We love contributions! Please read our [contribution guide](https://github.com/d
 
 4. Move to the directory of your choice and start making changes:
     ```bash
+    # For backend
+    cd quash-max/backend
+
+    # For frontend
+    cd quash-max/frontend
+
+    # For sdk
     cd quash-max/android
     ```
 
