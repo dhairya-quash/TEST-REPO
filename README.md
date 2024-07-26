@@ -10,11 +10,11 @@ Welcome to Quash! We're excited to introduce our next-generation mobile developm
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Architecture](#architecture)
-4. [Deployment with Docker](#deployment-with-docker)
-5. [Developer Setup](#developer-setup)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
+3. [Usage](#usage)
+4. [Architecture](#architecture)
+5. [Contributing](#contributing)
+6. [Developer Setup](#developer-setup)
+7. [Deployment](#deployment-with-docker)
 8. [License](#license)
 9. [Contact](#contact)
 
@@ -58,6 +58,19 @@ Quash is an SDK-enabled bug reporting solution that helps users report bugs effi
 - **Popular Tools:** Integrate with Jira, Slack, Google Sheets, Linear, GitHub, and more.
 - **Streamlined Workflow:** Export tickets directly to these platforms for a seamless bug tracking and resolution process.
 
+## Usage
+
+### Reporting Bugs
+
+1. **Shake Device:** Trigger the bug report by shaking your device.
+2. **Fill Report:** Use the prefilled bug report window to add any additional details.
+3. **Submit:** Submit the report, which is then captured and sent to the Quash web dashboard.
+
+### Managing Bugs
+
+1. **Dashboard Access:** Log in to the Quash web dashboard.
+2. **View Reports:** Access detailed bug reports with all captured data.
+
 ## Architecture
 
 Quash comprises three main components: the SDK, the backend, and the frontend.
@@ -77,9 +90,9 @@ Quash comprises three main components: the SDK, the backend, and the frontend.
 - **Next.js Dashboard:** A user-friendly web interface for viewing and managing bug reports.
 - **Real-Time Data:** Displays real-time data captured by the SDK, with options for collaboration and issue tracking.
 
-## Deployment with Docker
+## Contributing
 
-For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Max%20Quick%20start%20guide.md).
+We love contributions! Please read our [contribution guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Contribution%20Guide.md) to get started. We welcome all kinds of contributions, from code enhancements to documentation improvements.
 
 ## Developer Setup
 
@@ -107,22 +120,9 @@ For backend setup and deployment instructions, please refer to the [backend READ
 
 For frontend setup and deployment instructions, please refer to the [frontend README file](https://github.com/dhairya-quash/TEST-REPO/tree/main/frontend).
 
-## Usage
+## Deployment
 
-### Reporting Bugs
-
-1. **Shake Device:** Trigger the bug report by shaking your device.
-2. **Fill Report:** Use the prefilled bug report window to add any additional details.
-3. **Submit:** Submit the report, which is then captured and sent to the Quash web dashboard.
-
-### Managing Bugs
-
-1. **Dashboard Access:** Log in to the Quash web dashboard.
-2. **View Reports:** Access detailed bug reports with all captured data.
-
-## Contributing
-
-We love contributions! Please read our [contribution guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Contribution%20Guide.md) to get started. We welcome all kinds of contributions, from code enhancements to documentation improvements.
+For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/Oscorp-HQ/quash-max/Quickstart.md).
 
 ## License
 
