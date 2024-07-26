@@ -16,7 +16,7 @@ Welcome to the Quash Frontend repository, part of the [Quash](https://quashbugs.
 
 ## Tech Stack
 
-[![Typescript](https://img.shields.io/badge/Typescript-white?logo=TypeScript)](https://www.typescriptlang.org/) [![Next.js](https://img.shields.io/badge/Next.js-000000?logo=Next.js)](https://nextjs.org/) [![Tailwind](https://img.shields.io/badge/Tailwind-white?logo=tailwindcss)](https://tailwindcss.com/) [![shadcn/ui](https://img/shields.io/badge/shadcn_ui-white?logo=shadcnui)](https://ui.shadcn.com/) [![Google Cloud Platform](https://img/shields.io/badge/Google_Cloud_Platform-4285F4?logo=googlecloud)](https://cloud.google.com/)
+[![Typescript](https://img.shields.io/badge/Typescript-white?logo=TypeScript)](https://www.typescriptlang.org/) [![Next.js](https://img.shields.io/badge/Next.js-000000?logo=Next.js)](https://nextjs.org/) [![Tailwind](https://img.shields.io/badge/Tailwind-white?logo=tailwindcss)](https://tailwindcss.com/) [![shadcn/ui](https://img.shields.io/badge/shadcn_ui-000000?logo=shadcnui)](https://ui.shadcn.com/) [![Google Cloud Platform](https://img.shields.io/badge/Google_Cloud_Platform-white?logo=googlecloud)](https://cloud.google.com/)
 
 - [Typescript](https://www.typescriptlang.org/) - Language
 - [Next.js](https://nextjs.org/) - Framework
