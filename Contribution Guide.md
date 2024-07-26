@@ -56,7 +56,7 @@ The development branch is main. All pull requests should be made against this br
   ```bash
   git checkout -b feat/quash-some-feature
   ```
-5. See the [Developer Setup](../README.md#developer-setup) for more setup details.
+5. See the [Developer Setup](../README.md) for more setup details.
 
 ### Building
 
