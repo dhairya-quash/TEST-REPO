@@ -21,6 +21,12 @@ Welcome to the Quash Android SDK, your ultimate in-app bug reporting tool! Built
 - Device Information: Collect detailed device information including OS version, device model, and more.
 - Customizable Bug Reports: Allow users to report issues with custom fields and attachments.
 
+## Tech Stack
+
+[![Kotlin](https://img.shields.io/badge/kotlin-white?logo=kotlin)](https://kotlinlang.org/)
+
+- [Kotlin](https://kotlinlang.org/)
+
 # Installation
 
 ### Note
