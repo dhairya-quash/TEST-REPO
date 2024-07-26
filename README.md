@@ -73,9 +73,9 @@ Quash is an SDK-enabled bug reporting solution that helps users report bugs effi
 ### Reporting Bugs
 
 <div align="center"> 
-       <img src="https://github.com/user-attachments/assets/9715c172-8663-4bdf-8b92-ed2f1395a1b2" alt="Reporting 1" width=300 style="margin: 0 20px;">
-       <img src="https://github.com/user-attachments/assets/44a6623e-a146-4861-881c-37fbcf33c4ab" alt="Reporting 2" width=300 style="margin: 0 20px;">
-       <img src="https://github.com/user-attachments/assets/180eb7bc-f218-427c-8127-a23aef4216e7" alt="Reporting 3" width=300 style="margin: 0 20px;">
+       <img src="https://github.com/user-attachments/assets/9715c172-8663-4bdf-8b92-ed2f1395a1b2" alt="Reporting 1" width=300 style="margin: 10px;">
+       <img src="https://github.com/user-attachments/assets/44a6623e-a146-4861-881c-37fbcf33c4ab" alt="Reporting 2" width=300 style="margin: 10px;">
+       <img src="https://github.com/user-attachments/assets/180eb7bc-f218-427c-8127-a23aef4216e7" alt="Reporting 3" width=300 style="margin: 10px;">
 </div>
 <br>
 
