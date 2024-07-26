@@ -10,6 +10,33 @@ Welcome to Quash! We're excited to introduce our next-generation mobile developm
 
 [![Discord](https://img.shields.io/badge/Discord-Appstronauts-5865F2?style=&logo=Discord)](https://discord.com/invite/Nxbe8F6aqw) [![Code of Conduct](https://img.shields.io/badge/Code_of_Conduct-1.0-yellow)](https://github.com/dhairya-quash/TEST-REPO/blob/main/Code%20Of%20Conduct.md) [![license](https://img.shields.io/badge/license-MIT-orange)](https://github.com/Oscorp-HQ/quash-max/blob/main/LICENSE.md) [![Backend Docker Image](https://img.shields.io/badge/Docker%20Image-Backend-blue?logo=docker)](https://hub.docker.com/repository/docker/dhairya07/quash-max-backend/general) [![Frontend Docker Image](https://img.shields.io/badge/Docker%20Image-Frontend-green?logo=docker)](https://hub.docker.com/repository/docker/dhairya07/quash-max-frontend/general) [![Docker](https://img.shields.io/badge/Docker_Images-Frontend_&_Backend-2496ED?logo=docker)](https://hub.docker.com/repositories/dhairya07)
 
+---
+
+## Badges
+
+<div align="center">
+  <a href="https://discord.com/invite/Nxbe8F6aqw">
+    <img src="https://img.shields.io/badge/Discord-Appstronauts-5865F2?style=&logo=Discord" alt="Discord">
+  </a>
+  <a href="https://github.com/dhairya-quash/TEST-REPO/blob/main/Code%20Of%20Conduct.md">
+    <img src="https://img.shields.io/badge/Code_of_Conduct-1.0-yellow" alt="Code of Conduct">
+  </a>
+  <a href="https://github.com/Oscorp-HQ/quash-max/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/badge/license-MIT-orange" alt="license">
+  </a>
+  <a href="https://hub.docker.com/repository/docker/dhairya07/quash-max-backend/general">
+    <img src="https://img.shields.io/badge/Docker%20Image-Backend-blue?logo=docker" alt="Backend Docker Image">
+  </a>
+  <a href="https://hub.docker.com/repository/docker/dhairya07/quash-max-frontend/general">
+    <img src="https://img.shields.io/badge/Docker%20Image-Frontend-green?logo=docker" alt="Frontend Docker Image">
+  </a>
+  <a href="https://hub.docker.com/repositories/dhairya07">
+    <img src="https://img.shields.io/badge/Docker_Images-Frontend_&_Backend-2496ED?logo=docker" alt="Docker">
+  </a>
+</div>
+
+---
+
 ## Community and Next Steps
 
 We're currently working on a redesign of the application, including a revamp of the codebase, so Documenso can be more intuitive to use and robust to develop upon.
