@@ -154,7 +154,7 @@ For frontend setup and deployment instructions, please refer to the [frontend RE
 
 ## Deployment
 
-For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/Oscorp-HQ/quash-max/Quickstart.md).
+For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Deployment%20Guide.md).
 
 ## License
 
