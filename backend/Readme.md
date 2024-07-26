@@ -48,6 +48,13 @@ This guide will provide you steps to setup and configure the Backend for Quash.
 
 Quash Backend is built using the following technologies:
 
+## Technologies Used
+
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![JWT](https://img.shields.io/badge/JWT-black?logo=JSON%20web%20tokens&logoColor=white)](https://jwt.io/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+
 - [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.installing)
 - [MongoDB](https://www.mongodb.com/docs/manual/installation/)
 - Maven
