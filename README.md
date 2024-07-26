@@ -170,7 +170,7 @@ We love contributions! Please read our [contribution guide](https://github.com/d
 
 ### Note
 
-> Frontend and SDK have a dependency on Backend to view the data and changes that you make. So please have a running backend before proceeding to run frontend or sdk. You can run max backend by either running the code manually or using a pre-built docker image. Follow the [Backend Setup](https://github.com/dhairya-quash/TEST-REPO/tree/main/backend) for detailed steps.
+> Frontend and SDK have a dependency on Backend to view the data and changes that you make. So please have a running backend before proceeding to run frontend or sdk. You can run max backend by either running the code manually or using a pre-built docker image. Follow the [Backend Setup](https://github.com/dhairya-quash/TEST-REPO/tree/main/backend) for detailed steps. For setting up SDK, refer to the [SDK Installation Guide](https://github.com/dhairya-quash/TEST-REPO/tree/main/android)
 
 ### SDK
 
