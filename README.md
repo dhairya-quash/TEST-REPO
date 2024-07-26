@@ -23,7 +23,7 @@
   </a>
   <a href="https://hub.docker.com/repository/docker/dhairya07/quash-max-frontend/general" style="margin: 10px;">
     <img src="https://img.shields.io/badge/Docker%20Image-Frontend-green?logo=docker" alt="Frontend Docker Image">
-  </a>>
+  </a>
   </a>
 </p>
 <br>
