@@ -26,7 +26,6 @@
   </a>
   </a>
 </p>
-<br>
 
 Welcome to Quash! We're excited to introduce our next-generation mobile development tool designed to revolutionize the way you test and debug your applications. With Quash, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
 <br>
