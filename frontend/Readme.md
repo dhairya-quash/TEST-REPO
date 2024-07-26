@@ -27,7 +27,7 @@ Welcome to the Quash Frontend repository, part of the [Quash](https://quashbugs.
 
 ### Note
 
-> Quash Dashboard has a dependency on backend for providing the neccesary actions and data to go beyond the signin and signup page. So in order to use the dashboard or view any changes that you make in the dashboard, you need a working backend for it. To do so, please setup max backend by referring to the [Backend Setup](../backend)
+> Quash Dashboard has a dependency on backend for providing the neccesary actions and data to go beyond the signin and signup page. So in order to use the dashboard or view any changes that you make in the dashboard, you need a working backend for it. To do so, you can either run the code manually or use a pre-built docker image. Please refer to the [Backend Setup](https://github.com/dhairya-quash/TEST-REPO/tree/main/backend) for detailed steps.
 
 ### Prerequisites
 

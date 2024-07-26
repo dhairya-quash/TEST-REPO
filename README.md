@@ -90,6 +90,16 @@ Quash comprises three main components: the SDK, the backend, and the frontend.
 - **Next.js Dashboard:** A user-friendly web interface for viewing and managing bug reports.
 - **Real-Time Data:** Displays real-time data captured by the SDK, with options for collaboration and issue tracking.
 
+## Community and Next Steps
+
+We're currently working on a redesign of the application, including a revamp of the codebase, so Documenso can be more intuitive to use and robust to develop upon.
+
+- Check out the first source code release in this repository and test it.
+- Join the [Discord](https://discord.com/invite/Nxbe8F6aqw) server for any questions and getting to know to other community members.
+- ⭐ the repository to help us raise awareness.
+- Spread the word on Twitter that Quash is working towards a more open In-App bug reporting tool.
+- Fix or create [issues](https://github.com/Oscorp-HQ/quash-max/issues), that are needed for the first production release.
+
 ## Contributing
 
 We love contributions! Please read our [contribution guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Contribution%20Guide.md) to get started. We welcome all kinds of contributions, from code enhancements to documentation improvements.
@@ -106,7 +116,16 @@ We love contributions! Please read our [contribution guide](https://github.com/d
     git clone https://github.com/Oscorp-HQ/quash-max.git
     ```
 
+3.  Move to the directory of your choice and start making changes:
+    ```bash
+    cd android
+    ```
+
 **For running different components, refer to their respective guides:**
+
+### Note
+
+> Frontend and SDK have a dependency on Backend to view the data and changes that you make. So please have a running backend before proceeding to run frontend or sdk. You can run max backend by either running the code manually or using a pre-built docker image. Follow the [Backend Setup](https://github.com/dhairya-quash/TEST-REPO/tree/main/backend) for detailed steps.
 
 ### SDK
 
