@@ -34,15 +34,29 @@ Always feel free to ask questions or seek clarification on the issue.
 The development branch is main. All pull requests should be made against this branch. If you need help getting started, join us on [Discord](https://discord.com/invite/Nxbe8F6aqw).
 
 1. Fork this repository to your own GitHub account and then clone it to your local device.
-2. Create a new branch:
+2. Move to your workspace:
+   ```bash
+   cd your-workspace
+   ```
+3. Move to the directory of your choice and start making changes.
+    ```bash
+    # For frontend
+    cd quash-max/frontend
+  
+    # For backend
+    cd quash-max/backend
+  
+    # For SDK
+    cd quash-max/android
+    ```
+4. Create a new branch:
 
 - Create a new branch (include the issue id and something readable):
 
   ```bash
   git checkout -b feat/quash-some-feature
   ```
-
-3. See the Developer Setup for more setup details.
+5. See the [Developer Setup](https://github.com/dhairya-quash/TEST-REPO/Readme.md#developer-setup) for more setup details.
 
 ### Building
 
