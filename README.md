@@ -12,8 +12,6 @@ Welcome to Quash! We're excited to introduce our next-generation mobile developm
 
 ---
 
-## Badges
-
 <div align="center">
   <a href="https://discord.com/invite/Nxbe8F6aqw">
     <img src="https://img.shields.io/badge/Discord-Appstronauts-5865F2?style=&logo=Discord" alt="Discord">
