@@ -120,7 +120,7 @@ We love contributions! Please read our [contribution guide](https://github.com/d
     git clone https://github.com/Oscorp-HQ/quash-max.git
     ```
 
-4. Navigate to the directory where you cloned the repo. Move to the directory of your choice and start making changes:
+4. Move to the directory of your choice and start making changes:
     ```bash
     cd quash-max/android
     ```
