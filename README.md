@@ -83,6 +83,8 @@ Quash is an SDK-enabled bug reporting solution that helps users report bugs effi
 
 ## Architecture
 
+<div align="center"> <img src="https://github.com/user-attachments/assets/8b181560-301f-4e97-b36a-95bc67cc53dd" alt="Architecture" width=800> </div>
+
 Quash comprises three main components: the SDK, the backend, and the frontend.
 
 ### SDK
