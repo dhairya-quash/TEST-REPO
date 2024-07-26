@@ -79,10 +79,6 @@ Quash is an SDK-enabled bug reporting solution that helps users report bugs effi
 </div>
 <br>
 
-<img src="https://github.com/user-attachments/assets/9715c172-8663-4bdf-8b92-ed2f1395a1b2" alt="Reporting 1" width=200 style="float: left; margin-right: 10px;">
-<img src="https://github.com/user-attachments/assets/44a6623e-a146-4861-881c-37fbcf33c4ab" alt="Reporting 2" width=200 style="float: left; margin-right: 10px;">
-<img src="https://github.com/user-attachments/assets/180eb7bc-f218-427c-8127-a23aef4216e7" alt="Reporting 3" width=200 style="float: left; margin-right: 10px;">
-
 1. **Shake Device:** Trigger the bug report by shaking your device.
 2. **Fill Report:** Use the prefilled bug report window to add any additional details.
 3. **Submit:** Submit the report, which is then captured and sent to the Quash web dashboard.
