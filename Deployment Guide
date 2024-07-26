@@ -1,6 +1,6 @@
-# Quash Quick Start Guide
+# Deployment with Docker
 
-Welcome to Quash! This guide will walk you through the process of setting up Quash using Docker, whether you're working on your local machine or a hosted VM instance. We've designed this guide to be comprehensive and easy to follow. Let's get started!
+Welcome to Quash! This guide will walk you through the process of setting up Quash Frontend and Backend using Docker, whether you're working on your local machine or a hosted VM instance. We've designed this guide to be comprehensive and easy to follow. Let's get started!
 
 ## Quick Links
 - Host a VM Instance
