@@ -6,6 +6,16 @@
 <br>
 Welcome to Quash! We're excited to introduce our next-generation mobile development tool designed to revolutionize the way you test and debug your applications. With Quash, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
 
+## Community and Next Steps
+
+We're currently working on a redesign of the application, including a revamp of the codebase, so Documenso can be more intuitive to use and robust to develop upon.
+
+- Check out the first source code release in this repository and test it.
+- Join the [Discord](https://discord.com/invite/Nxbe8F6aqw) server for any questions and getting to know to other community members.
+- ⭐ the repository to help us raise awareness.
+- Spread the word on Twitter that Quash is working towards a more open In-App bug reporting tool.
+- Fix or create [issues](https://github.com/Oscorp-HQ/quash-max/issues), that are needed for the first production release.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -89,16 +99,6 @@ Quash comprises three main components: the SDK, the backend, and the frontend.
 
 - **Next.js Dashboard:** A user-friendly web interface for viewing and managing bug reports.
 - **Real-Time Data:** Displays real-time data captured by the SDK, with options for collaboration and issue tracking.
-
-## Community and Next Steps
-
-We're currently working on a redesign of the application, including a revamp of the codebase, so Documenso can be more intuitive to use and robust to develop upon.
-
-- Check out the first source code release in this repository and test it.
-- Join the [Discord](https://discord.com/invite/Nxbe8F6aqw) server for any questions and getting to know to other community members.
-- ⭐ the repository to help us raise awareness.
-- Spread the word on Twitter that Quash is working towards a more open In-App bug reporting tool.
-- Fix or create [issues](https://github.com/Oscorp-HQ/quash-max/issues), that are needed for the first production release.
 
 ## Contributing
 
