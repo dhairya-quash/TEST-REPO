@@ -125,7 +125,7 @@ We love contributions! Please read our [contribution guide](https://github.com/d
     cd quash-max/android
     ```
 
-**For running different components, refer to their respective guides:**
+**For detailed steps for running different components, refer to their respective guides:**
 
 ### Note
 
