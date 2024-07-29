@@ -185,7 +185,7 @@ For backend setup and deployment instructions, please refer to the [backend READ
 For frontend setup and deployment instructions, please refer to the [frontend README file](https://github.com/dhairya-quash/TEST-REPO/tree/main/frontend).
 
 ## Deployment
-For setting up SDK, refer to the [SDK Installation Guide](https://github.com/dhairya-quash/TEST-REPO/tree/main/android)
+> Note: For deploying up SDK, refer to the [SDK Installation Guide](https://github.com/dhairya-quash/TEST-REPO/tree/main/android)
 
 For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Deployment%20Guide.md).
 
