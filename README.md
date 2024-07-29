@@ -5,7 +5,7 @@
 <div align="center"> <img src="https://github.com/user-attachments/assets/e3cdb94c-4596-4955-9f3b-14cc004b1733" alt="Quash Banner" width=1000> </div>
 <br>
 
-<p align="center" style="margin-top: 40px; text-align: center; max-width: 400px; margin-left: auto; margin-right: auto;">
+<p align="center" style="margin-top: 40px; text-align: center; max-width: 200px; margin-left: auto; margin-right: auto;">
   <a href="https://quashbugs.com/" style="margin: 10px;">
     <img src="https://img.shields.io/badge/Quash-yellow" alt="Quash website">
   </a>
