@@ -45,7 +45,7 @@ We're currently working on a redesign of the application, including a revamp of 
 4. [Architecture](#architecture)
 5. [Contributing](#contributing)
 6. [Developer Setup](#developer-setup)
-7. [Deployment](#deployment-with-docker)
+7. [Deployment](#deployment)
 8. [License](#license)
 9. [Contact](#contact)
 
@@ -112,7 +112,7 @@ Quash Max helps you resolve the bugs faster, ensuring your mobile apps are relea
 1. **Dashboard Access:** Log in to the Quash web dashboard.
 2. **View Reports:** Access detailed bug reports with all captured data.
 
-## Architecture
+# Architecture
 
 <div align="center"> <img src="https://github.com/user-attachments/assets/ca5b181b-9e2b-49b8-8d59-f4cd96159ee5" alt="Architecture" width=1000> </div>
 <br>
