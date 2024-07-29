@@ -25,7 +25,7 @@
 
 
 
-Welcome to Quash! We're excited to introduce our next-generation mobile development tool designed to revolutionize the way you test and debug your applications. With Quash, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
+Welcome to Quash! We're excited to introduce our next-generation mobile development tool - **Quash Max**, designed to revolutionize the way you test and debug your applications. With Quash Max, identifying and resolving bugs is as easy as a shake of your device. Our intuitive platform auto-captures session replays, crash logs, and more, allowing you to focus on building new features while we handle the bugs.
 <br>
 
 ## Community and Next Steps
@@ -35,7 +35,7 @@ We're currently working on a redesign of the application, including a revamp of 
 - Check out the first source code release in this repository and test it.
 - Join the [Discord](https://discord.com/invite/Nxbe8F6aqw) server for any questions and getting to know to other community members.
 - ⭐ the repository to help us raise awareness.
-- Spread the word on Twitter that Quash is working towards a more open In-App bug reporting tool.
+- Spread the word on [Twitter](https://x.com/helloquash) that Quash is working towards a more open In-App bug reporting tool.
 - Fix or create [issues](https://github.com/Oscorp-HQ/quash-max/issues), that are needed for the first production release.
 
 ## Table of Contents
@@ -59,7 +59,7 @@ Quash Max helps you resolve the bugs faster, ensuring your mobile apps are relea
 
 ### Easy Setup
 
-- **Quick Integration:** Integrate the Quash SDK with your application in less than 5 minutes.
+- **Quick Integration:** Integrate the Quash Max SDK with your application in less than 5 minutes.
 - **Detailed Guides:** Follow our comprehensive guides for seamless setup.
 
 ### In-App Bug Reporting
@@ -107,7 +107,7 @@ Quash Max helps you resolve the bugs faster, ensuring your mobile apps are relea
 
 ### Managing Bugs
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/14ee7869-f1db-45e6-8c70-922d7de2f106" alt="Quash Banner" width=1000> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/14ee7869-f1db-45e6-8c70-922d7de2f106" alt="Quash Banner" width=930> </div>
 <br>
 
 1. **Dashboard Access:** Log in to the Quash web dashboard.
@@ -115,13 +115,13 @@ Quash Max helps you resolve the bugs faster, ensuring your mobile apps are relea
 
 # Architecture
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/ca5b181b-9e2b-49b8-8d59-f4cd96159ee5" alt="Architecture" width=1000> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/ca5b181b-9e2b-49b8-8d59-f4cd96159ee5" alt="Architecture" width=900> </div>
 <br>
-Quash comprises three main components: the SDK, the backend, and the frontend.
+Quash Max comprises three main components: the SDK, the backend, and the frontend.
 
 ### SDK
 
-- **Android SDK:** The Quash SDK for Android provides in-app bug reporting and crash detection.
+- **Android SDK:** The Quash Max SDK for Android provides in-app bug reporting and crash detection.
 - **Integration:** Simple integration with your application, including network interception and configuration.
 
 ### Backend
@@ -188,7 +188,7 @@ For frontend setup and deployment instructions, please refer to the [frontend RE
 ## Deployment
 > Note: For deploying SDK, refer to the deplyment section of android - [SDK Installation Guide](https://github.com/dhairya-quash/TEST-REPO/tree/main/android)
 
-For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Deployment%20Guide.md).
+For a detailed, step-by-step guide on setting up Quash Max's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Deployment%20Guide.md).
 
 ## License
 
