@@ -6,7 +6,7 @@
 <br>
 
 <div align="center" style="margin-top: 40px; text-align: center;">
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: auto;">
+  <div align="center">
     <a href="https://quashbugs.com/" style="margin: 10px;">
       <img src="https://img.shields.io/badge/Quash-yellow" alt="Quash website">
     </a>
@@ -21,7 +21,9 @@
     </a>
     <a href="https://github.com/Oscorp-HQ/quash-max/blob/main/LICENSE.md" style="margin: 10px;">
       <img src="https://img.shields.io/badge/license-MIT-orange" alt="license">
-    </a>
+    </a>   
+  </div>
+  <div align="center">
     <a href="https://hub.docker.com/repository/docker/dhairya07/quash-max-backend/general" style="margin: 10px;">
       <img src="https://img.shields.io/badge/Docker%20Image-Backend-blue?logo=docker" alt="Backend Docker Image">
     </a>
