@@ -174,7 +174,7 @@ We love contributions! Please read our [contribution guide](https://github.com/d
 
 ### SDK
 
-For detailed SDK instructions, please refer to the individual [README files in the SDK directory](https://github.com/dhairya-quash/TEST-REPO/tree/main/android).
+For detailed SDK instructions, please refer to the individual [android README file](https://github.com/dhairya-quash/TEST-REPO/tree/main/android).
 
 ### Backend
 
