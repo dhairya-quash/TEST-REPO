@@ -94,7 +94,7 @@ Quash Max helps you resolve the bugs faster, ensuring your mobile apps are relea
 
 ### Reporting Bugs
 
-   <img src="https://github.com/user-attachments/assets/ff33fe09-d214-4698-8127-05bf26e16cc3" alt="Reporting 1" width=1000>
+   <img src="https://github.com/user-attachments/assets/4fc4cfc1-2140-4c8f-8166-3540ee0137c6" alt="Reporting 1" width=1000>
 <br>
 
 1. **Shake Device:** Trigger the bug report by shaking your device.
