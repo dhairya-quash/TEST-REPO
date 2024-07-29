@@ -106,7 +106,7 @@ Quash Max helps you resolve the bugs faster, ensuring your mobile apps are relea
 
 ### Managing Bugs
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/e60f97b2-5fcc-417f-85d7-70a2a10af444" alt="Quash Banner" width=1000> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/14ee7869-f1db-45e6-8c70-922d7de2f106" alt="Quash Banner" width=1000> </div>
 <br>
 
 1. **Dashboard Access:** Log in to the Quash web dashboard.
