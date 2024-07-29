@@ -6,7 +6,7 @@
 <br>
 
 <div align="center" style="margin-top: 40px; text-align: center;">
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 100px; margin: auto;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 600px; margin: auto;">
     <a href="https://quashbugs.com/" style="margin: 10px;">
       <img src="https://img.shields.io/badge/Quash-yellow" alt="Quash website">
     </a>
