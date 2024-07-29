@@ -5,8 +5,8 @@
 <div align="center"> <img src="https://github.com/user-attachments/assets/e3cdb94c-4596-4955-9f3b-14cc004b1733" alt="Quash Banner" width=1000> </div>
 <p align="center">
     <a href="https://quashbugs.com"><strong>Learn more »</strong></a>
-    <br />
-    <br />
+</p>
+<p align="center">
     <a href="https://discord.com/invite/Nxbe8F6aqw">Discord</a>
     ·
     <a href="https://quashbugs.com">Website</a>
