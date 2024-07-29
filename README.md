@@ -170,7 +170,7 @@ We love contributions! Please read our [contribution guide](https://github.com/d
 
 ### Note
 
-> Frontend and SDK have a dependency on Backend to view the data and changes that you make. So please have a running backend before proceeding to run frontend or sdk. You can run max backend by either running the code manually or using a pre-built docker image. Follow the [Backend Setup](https://github.com/dhairya-quash/TEST-REPO/tree/main/backend) for detailed steps. For setting up SDK, refer to the [SDK Installation Guide](https://github.com/dhairya-quash/TEST-REPO/tree/main/android)
+> Frontend and SDK have a dependency on Backend to view the data and changes that you make. So please have a running backend before proceeding to run frontend or sdk. You can run max backend by either running the code manually or using a pre-built docker image. Follow the [Backend Setup](https://github.com/dhairya-quash/TEST-REPO/tree/main/backend) for detailed steps.
 
 ### SDK
 
@@ -185,6 +185,7 @@ For backend setup and deployment instructions, please refer to the [backend READ
 For frontend setup and deployment instructions, please refer to the [frontend README file](https://github.com/dhairya-quash/TEST-REPO/tree/main/frontend).
 
 ## Deployment
+For setting up SDK, refer to the [SDK Installation Guide](https://github.com/dhairya-quash/TEST-REPO/tree/main/android)
 
 For a detailed, step-by-step guide on setting up Quash's Frontend and Backend using Docker, whether on your local machine or a hosted VM instance, please refer to our [Quick Start Guide](https://github.com/dhairya-quash/TEST-REPO/blob/main/Deployment%20Guide.md).
 
