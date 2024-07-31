@@ -77,6 +77,4 @@ mvn clean package
 
 _SDK_:
 
-```bash
-
-```
+In your IDE, navigate to the tools tab and click `clean project` and then `make project`
