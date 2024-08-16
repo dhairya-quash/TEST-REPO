@@ -66,27 +66,27 @@ If you want to quickly run backend with docker, refer to the step for [Running w
 
 Move to your workspace
 
-    ```bash
-    cd your-workspace
-    ```
+```bash
+cd your-workspace
+```
 
 Clone the parent repository
 
-    ```bash
-    git clone https://github.com/Oscorp-HQ/quash-max.git
-    ```
+```bash
+git clone https://github.com/Oscorp-HQ/quash-max.git
+```
 
 Move to the backend directory
 
-    ```bash
-    cd quash-max/backend
-    ```
+```bash
+cd quash-max/backend
+```
 
 Run this maven command
 
-    ```bash
-    mvn clean install
-    ```
+```bash
+mvn clean install
+```
 
 ## Configuration
 
