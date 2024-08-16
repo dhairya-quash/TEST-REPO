@@ -27,6 +27,38 @@ Welcome to the Quash Android SDK, your ultimate in-app bug reporting tool! Built
 
 - [Kotlin](https://kotlinlang.org/)
 
+## Setup Steps:
+
+1. **Locate the File:**
+
+   - Find the `quash.properties.example` file in each module's directory.
+   - Specifically for the Quash module, locate the `google-service.json.example` file.
+
+2. **Configure the Files:**
+   - Rename `quash.properties.example` to `quash.properties` and edit it with your specific configuration parameters such as API keys or server URLs.
+   - In the Quash module, rename `google-service.json.example` to `google-service.json` and update it according to your Firebase configuration needs.
+
+```properties
+# Example configuration entries
+FirebaseApiKey=YOUR_FIREBASE_API_KEY
+FirebaseAppId=YOUR_FIREBASE_APP_ID
+FirebaseProjectId=YOUR_FIREBASE_PROJECT_ID
+
+# Base URLs for different build environments
+ReleaseBaseUrl=https://your_release_base_url.com
+DebugBaseUrl=https://your_debug_base_url.com
+```
+
+**Secure Configuration:**
+
+- Make sure to not expose sensitive information like API keys in public repositories. Use environment variables for sensitive data.
+
+### Build Integration:
+
+- Ensure that `build.gradle` is configured to include `quash.properties` during the build process.
+
+This configuration file is crucial for each module to function correctly within your project.
+
 # Installation
 
 ### Note
@@ -132,38 +164,6 @@ apply plugin: 'com.google.firebase.crashlytics'
 ### Configuration with `quash.properties`
 
 Each module within the SDK includes a `quash.properties` file that you need to configure. Here’s how to set it up:
-
-### Setup Steps:
-
-1. **Locate the File:**
-
-   - Find the `quash.properties.example` file in each module's directory.
-   - Specifically for the Quash module, locate the `google-service.json.example` file.
-
-2. **Configure the Files:**
-   - Rename `quash.properties.example` to `quash.properties` and edit it with your specific configuration parameters such as API keys or server URLs.
-   - In the Quash module, rename `google-service.json.example` to `google-service.json` and update it according to your Firebase configuration needs.
-
-```properties
-# Example configuration entries
-FirebaseApiKey=YOUR_FIREBASE_API_KEY
-FirebaseAppId=YOUR_FIREBASE_APP_ID
-FirebaseProjectId=YOUR_FIREBASE_PROJECT_ID
-
-# Base URLs for different build environments
-ReleaseBaseUrl=https://your_release_base_url.com
-DebugBaseUrl=https://your_debug_base_url.com
-```
-
-**Secure Configuration:**
-
-- Make sure to not expose sensitive information like API keys in public repositories. Use environment variables for sensitive data.
-
-### Build Integration:
-
-- Ensure that `build.gradle` is configured to include `quash.properties` during the build process.
-
-This configuration file is crucial for each module to function correctly within your project.
 
 ### Contributing
 
